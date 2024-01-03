@@ -6,8 +6,8 @@ Cette recette est un très bon remplacement au chorizo grillé. L'objectif est d
 ## Ingrédients
 
 * 200g de tofu
-* 8cl d'huile neutre (tournesol par exemple)
-* 3 cuillères à soupe de sauce soja
+* 5cl d'huile neutre (tournesol par exemple)
+* 5 cuillères à soupe de sauce soja
 * Piment de Cayenne
 * Herbes de provence
 * Sel et poivre
