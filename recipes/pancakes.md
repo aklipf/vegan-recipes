@@ -1,7 +1,7 @@
 Pancakes moelleux
 =================
 
-## Ingredients
+## Ingrédients
 
 * 250g de farine
 * 25cl de lait végétal (soja non sucrée par exemple)

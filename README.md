@@ -3,7 +3,7 @@
 ## Dessert
 
 * [Pancakes moelleux](recipes/pancakes.md)
-* [Gateau orange chocolat](recipes/orange_chocolate_cake.md)
+* [Gâteau orange chocolat](recipes/orange_chocolate_cake.md)
 * [Cupcakes chocolat banane](recipes/chocolat_cupcake.md)
 
 ## Plats
@@ -32,9 +32,9 @@
 
 ## Bases
 
-* [Végannaise et dérivée](recipes/vegenaise.md)
+* [Végannaise et dérivées](recipes/vegenaise.md)
 * [Tofu croustillant mariné épicé](recipes/crispy_marinated_tofu.md)
 * [Patates douces rôties](recipes/roated_sweet_potato.md)
 * [Smashed potato](recipes/smashed_potato.md)
 * [Sauce au madère](recipes/madeira_sauce.md)
-
+* [Pâte brisée](recipes/shortcrust_pastry.md)
