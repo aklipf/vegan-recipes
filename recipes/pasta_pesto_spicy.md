@@ -7,7 +7,7 @@ Cette recette utilise du [tofu croustillant mariné épicé](recipes/crispy_mari
 ## Ingrédients
 
 * Pâte (Pour 2 à 3 personnes, par exemple des spaghetti)
-* 200g de pesto rouge (vérifiez qu'il est bien sans fromage, un pesto rouge contenant des tomates séchées sera très adapté)
+* 200g de pesto rouge ou purée de tomates séchées (vérifiez qu'il est bien sans fromage, un pesto rouge contenant des tomates séchées sera très adapté)
 * 200g de tofu mariné
 * Sel
 
