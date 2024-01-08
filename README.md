@@ -2,13 +2,13 @@
 
 ## Dessert
 
-* [Pancakes moelleux](recipes/pancakes.md)
-* [Gâteau orange chocolat](recipes/orange_chocolate_cake.md)
-* [Cupcakes chocolat banane](recipes/chocolat_cupcake.md)
+* [Pancakes moelleux](recipes/dessert/pancakes.md)
+* [Gâteau orange chocolat](recipes/dessert/orange_chocolate_cake.md)
+* [Cupcakes chocolat banane](recipes/dessert/chocolat_cupcake.md)
 
 ## Plats
 
-* [Risotto aux champignons](recipes/risotto_mushroom.md)
+* [Risotto aux champignons](recipes/dishes/mushroom_risotto.md)
 * [Wraps patate douce/hummus](recipes/wraps.md)
 * [Pâte au pesto rouge et tofu épicé](recipes/pasta_pesto_spicy.md)
 * [Pâte à l'avocat](recipes/pasta_avocado.md)
