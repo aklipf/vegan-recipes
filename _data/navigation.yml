@@ -1,4 +1,4 @@
-- name: Recettes
+- name: Catégories
   link: /recipes/
   dropdown: 
     - name: Dessert
