@@ -7,8 +7,8 @@ Pour 2 à 3 personnes.
 
 * 400g de champignons
 * 2 verres de riz à risotto (2x20cl)
-* 2 verres de bouillon le légumes (3x20cl)
-* 1 oignon
+* 5 verres de bouillon le légumes (5x20cl)
+* 2 oignon
 * 3 gousses d'ailes
 * 10 cl de crème de soja
 * huile d'olive
