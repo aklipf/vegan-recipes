@@ -82,12 +82,6 @@ layout: default
                 <li>{{ step }}</li>
                 {% endfor %}
             </ol>
-            <div class="tags">
-                {% assign tags = page.keywords | split: "," %}
-                {% for tag in tags %}
-                {% include tag.html tag=tag %}
-                {% endfor %}
-            </div>
 
             <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
         </div>

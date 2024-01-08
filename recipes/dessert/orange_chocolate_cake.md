@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recette
 title: Gâteau orange chocolat
 #subtitle: Tastes great and easy to cook
 description: Recette de gâteau à l'orange et au chocolat (et un peu de gingembre selon les goûts)

@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recette
 title: Cupcakes chocolat banane
 subtitle: TODO
 description: Recette de cupcakes chocolat banane

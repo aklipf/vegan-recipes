@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recette
 title: Pancakes moelleux
 #subtitle: Tastes great and easy to cook
 description: Recette de pancakes vegan moelleux
