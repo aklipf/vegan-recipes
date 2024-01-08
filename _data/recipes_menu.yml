@@ -1,0 +1,18 @@
+- label: Recettes
+  items:
+    - name: Home
+      link: /
+    - name: Dessert
+      link: /recipes/dessert
+      items:
+        - name: Pancakes moelleux
+          link: /recipes/dessert/pancakes
+        - name: Gâteau orange chocolat
+          link: /recipes/dessert/orange_chocolate_cake
+        - name: Cupcakes chocolat banane
+          link: /recipes/dessert/chocolat_cupcake
+    - name: Plats
+      link: /recipes/dishes/
+      items:
+        - name: Risotto aux champignons
+          link: /recipes/dishes/mushroom_risotto
