@@ -27,6 +27,7 @@ url: "https://aklipf.github.io" # the base hostname & protocol for your site, e.
 github_username:  aklipf
 
 # Build settings
+theme: bulma-clean-theme
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
