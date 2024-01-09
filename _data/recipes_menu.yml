@@ -14,3 +14,9 @@
       items:
         - name: Risotto aux champignons
           link: /recipes/dishes/mushroom_risotto
+    - name: Apero
+      link: /recipes/appetizer/
+      items:
+        - name: Tartinade de la mer
+          link: /recipes/appetizer/sea_spread
+        

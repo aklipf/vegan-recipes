@@ -7,3 +7,4 @@ show_sidebar: false
 
 * [Dessert](dessert)
 * [Plats](dishes)
+* [Apéro](appetizer)
