@@ -22,8 +22,8 @@ title: Recette vegan
 email: astridklipfel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Un petit site internet pour que j'arrête d'oublier mes recettes!
-baseurl: "/vegan-recipes" # the subpath of your site, e.g. /blog
-url: "https://aklipf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://vegan.astrid-klipfel.fr" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aklipf
 
 # Build settings
