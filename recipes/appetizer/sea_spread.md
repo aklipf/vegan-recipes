@@ -4,6 +4,7 @@ title: Tartinade de la mer
 
 description: Recette d'une tartinade de la mer
 date: 09-01-2024
+author: Mathilde
 show_sidebar: false
 image: /bulma-clan-theme/img/recipe-example.jpg
 hero_image: /bulma-clean-theme/img/recipe-example.jpg
