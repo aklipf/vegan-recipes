@@ -5,6 +5,4 @@ menubar: recipes_menu
 show_sidebar: false
 ---
 
-* [Pancakes moelleux](pancakes)
-* [Gâteau orange chocolat](orange_chocolate_cake)
-* [Cupcakes chocolat banane](chocolat_cupcake)
+* [Tartinade de la mer](sea_spread)
