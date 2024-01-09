@@ -6,3 +6,4 @@ show_sidebar: false
 ---
 
 * [Tartinade de la mer](sea_spread)
+* [Faux-gras](fake_gras)
