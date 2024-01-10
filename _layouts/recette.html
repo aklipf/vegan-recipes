@@ -50,21 +50,21 @@ layout: default
     <div class="column is-4">
         {% if page.recipe_yield %}
         <div class="box has-text-centered">
-            <strong>Serves:</strong> {{ page.recipe_yield }}
+            <strong>Portions:</strong> {{ page.recipe_yield }}
         </div>
         {% endif %}
     </div>
     <div class="column is-4">
         {% if page.prep_time %}
         <div class="box has-text-centered">
-            <strong>Prep time:</strong> {{ page.prep_time | date: "%k hours %M minutes" }}
+            <strong>Temps de préparation:</strong> {{ page.prep_time | date: "%k hours %M minutes" }}
         </div>
         {% endif %}
     </div>
     <div class="column is-4">
         {% if page.cook_time %}
         <div class="box has-text-centered">
-            <strong>Cook time:</strong> {{ page.cook_time | date: "%k hours %M minutes" }}
+            <strong>Temps de cuisson:</strong> {{ page.cook_time | date: "%k hours %M minutes" }}
         </div>
         {% endif %}
     </div>
@@ -89,7 +89,24 @@ layout: default
                 {% endfor %}
             </ol>
 
-            <p>Published: {{ page.date | date: "%b %-d, %Y" }} {% if page.author %} by {{ page.author }} {% endif %}</p>
+            <p>Publié le: {% assign m = page.date | date: "%-m" %}
+                {{ page.date | date: "%-d" }}
+                {% case m %}
+                {% when '1' %}janvier
+                {% when '2' %}février
+                {% when '3' %}mars
+                {% when '4' %}avril
+                {% when '5' %}mai
+                {% when '6' %}juin
+                {% when '7' %}juillet
+                {% when '8' %}août
+                {% when '9' %}septembre
+                {% when '10' %}octobre
+                {% when '11' %}novembre
+                {% when '12' %}décembre
+                {% endcase %}
+                {{ page.date | date: "%Y" }} {% if page.author %} par {{ page.author }} {% endif %}
+            </p>
         </div>
         <div class="content">
             {{ content }}
