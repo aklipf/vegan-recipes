@@ -1,8 +1,6 @@
 ---
-layout: page
-title: Recettes vegan
+layout: category
+title: Plats
 menubar: recipes_menu
 show_sidebar: false
 ---
-
-* [Risotto aux champignons](mushroom_risotto)

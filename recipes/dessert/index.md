@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Recettes vegan
+layout: category
+title: Dessert
 menubar: recipes_menu
 show_sidebar: false
 ---
-
-* [Pancakes moelleux](pancakes)
-* [Gâteau orange chocolat](orange_chocolate_cake)
-* [Cupcakes chocolat banane](chocolat_cupcake)

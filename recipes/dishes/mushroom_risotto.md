@@ -33,5 +33,5 @@ method:
 #total_time: PT1H10M
 recipe_yield: 2 à 3 personnes
 #keywords: recipe,cooking,dessert
-recipe_category: Plat
+recipe_category: Plats
 ---
