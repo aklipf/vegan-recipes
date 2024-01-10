@@ -1,8 +1,8 @@
 ---
 layout: recette
-title: Tartinade de la mer
+title: Faux Gras
 
-description: Recette d'une tartinade de la mer
+description: Recette de faux gras
 date: 09-01-2024
 author: Mathilde
 show_sidebar: false
