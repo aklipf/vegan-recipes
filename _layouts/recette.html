@@ -48,19 +48,25 @@ layout: default
 
 <div class="columns is-multiline">
     <div class="column is-4">
+        {% if page.recipe_yield %}
         <div class="box has-text-centered">
             <strong>Serves:</strong> {{ page.recipe_yield }}
         </div>
+        {% endif %}
     </div>
     <div class="column is-4">
+        {% if page.prep_time %}
         <div class="box has-text-centered">
             <strong>Prep time:</strong> {{ page.prep_time | date: "%k hours %M minutes" }}
         </div>
+        {% endif %}
     </div>
     <div class="column is-4">
+        {% if page.cook_time %}
         <div class="box has-text-centered">
             <strong>Cook time:</strong> {{ page.cook_time | date: "%k hours %M minutes" }}
         </div>
+        {% endif %}
     </div>
     <div class="column is-4">
         <div class="box">
@@ -83,7 +89,7 @@ layout: default
                 {% endfor %}
             </ol>
 
-            <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
+            <p>Published: {{ page.date | date: "%b %-d, %Y" }} {% if page.author %} by {{ page.author }} {% endif %}</p>
         </div>
         <div class="content">
             {{ content }}

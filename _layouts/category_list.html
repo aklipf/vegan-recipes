@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "name": "{{ page.title }}"
+}
+</script>
+
+<div class="columns is-multiline">
+    <div class="column is-8">
+        <p class="title is-4">{{ page.title }}</p>
+        <div class="content">
+            {{ content }}
+        </div>
+        <div class="content">
+            {% assign categories = site.pages | where: "layout", "category" %}
+
+            <ul>
+                {% for category in categories %}
+                <li><a href="{{ category.url }}">{{ category.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>

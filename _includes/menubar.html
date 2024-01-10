@@ -1,23 +1,23 @@
 {% assign menus = site.data.[page.menubar] %}
 
 <aside class="menu">
-    {% for menu in menus %}
-    <p class="menu-label">{{ menu.label }}</p>
+    <p class="menu-label">Recettes</p>
     <ul class="menu-list">
-        {% for item in menu.items %}
+        {% assign categories = site.pages | where: "layout", "category" %}
+
+        {% for category in categories %}
         <li>
-            <a href="{{ item.link | relative_url }}" class="{% if item.link == page.url %}is-active{% endif %}">{{
-                item.name }}</a>
-            {% if item.items %}
+            <a href="{{ category.url }}"
+                class="{% if category.url == page.url %}is-active{% endif %}">{{category.title}}</a>
             <ul>
-                {% for subitem in item.items %}
-                <li><a href="{{ subitem.link | relative_url }}"
-                        class="{% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a></li>
+                {% assign recipes = site.pages | where: "layout", "recette" | where: "recipe_category", category.title
+                %}
+                {% for recipe in recipes %}
+                <li><a href="{{ recipe.url }}" class="{% if recipe.url == page.url %}is-active{% endif %}">{{
+                        recipe.title }}</a></li>
                 {% endfor %}
             </ul>
-            {% endif %}
         </li>
         {% endfor %}
     </ul>
-    {% endfor %}
 </aside>

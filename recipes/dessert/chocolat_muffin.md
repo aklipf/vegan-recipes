@@ -1,8 +1,8 @@
 ---
 layout: recette
-title: Cupcakes chocolat banane
+title: Muffin chocolat banane
 subtitle: TODO
-description: Recette de cupcakes chocolat banane
+description: Recette de muffin chocolat banane
 date: 08-01-2024
 show_sidebar: false
 image: /bulma-clan-theme/img/recipe-example.jpg
@@ -14,6 +14,7 @@ method:
 #cook_time: PT1H
 #total_time: PT1H10M
 #recipe_yield: 4
+author: Eurûs
 keywords: recipe,cooking,dessert
 recipe_category: Dessert
 ---

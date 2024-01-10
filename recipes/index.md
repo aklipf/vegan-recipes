@@ -1,9 +1,6 @@
 ---
-layout: page
+layout: category_list
 title: Recettes vegan
 menubar: recipes_menu
 show_sidebar: false
 ---
-
-* [Dessert](dessert)
-* [Plats](dishes)
