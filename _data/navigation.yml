@@ -1,0 +1,9 @@
+- name: Catégories
+  link: /recipes/
+  dropdown: 
+    - name: Dessert
+      link: /recipes/dessert/
+    - name: Plats
+      link: /recipes/dishes/
+    - name: Apero
+      link: /recipes/appetizer/

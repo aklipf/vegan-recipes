@@ -9,5 +9,9 @@ show_sidebar: false
 
 * [Dessert](dessert)
 * [Plats](dishes)
+<<<<<<< HEAD
 * [Apéro](appetizer)
 >>>>>>> ff820de (Add sea-spread)
+=======
+* [Apéro](appetizer)
+>>>>>>> mathilde
