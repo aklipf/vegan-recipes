@@ -18,11 +18,15 @@ layout: default
         <div class="content">
             {% assign categories = site.pages | where: "layout", "category" %}
 
-            <ul>
-                {% for category in categories %}
-                <li><a href="{{ category.url }}">{{ category.title }}</a></li>
-                {% endfor %}
-            </ul>
+            {% for category in categories %}
+            <a href="{{ category.url }}" class="card">
+                <div class="card-content">
+                    <p class="content">
+                        {{ category.title }}
+                    </p>
+                </div>
+            </a>
+            {% endfor %}
 
         </div>
     </div>

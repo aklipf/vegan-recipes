@@ -20,7 +20,13 @@ layout: default
 
             <ul>
                 {% for recipe in recipes %}
-                <li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
+                <a href="{{ recipe.url }}" class="card">
+                    <div class="card-content">
+                        <p class="content">
+                            {{ recipe.title }}
+                        </p>
+                    </div>
+                </a>
                 {% endfor %}
             </ul>
 
