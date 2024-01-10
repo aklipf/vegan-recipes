@@ -14,11 +14,20 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                {% assign categories = site.pages | where: "layout", "category" %}
-                {% for category in categories %}
-                <a href="{{ category.url | relative_url }}"
-                    class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ category.title }}</a>
-                {% endfor %}
+                <div
+                    class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+                    <a href="/recipes"
+                        class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">Catégories</a>
+                    <div class="navbar-dropdown">
+                        {% assign categories = site.pages | where: "layout", "category" %}
+                        {% for category in categories %}
+                        <a href="{{ category.url | relative_url }}"
+                            class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ category.title
+                            }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+
             </div>
 
 
