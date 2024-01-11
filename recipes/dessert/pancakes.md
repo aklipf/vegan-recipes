@@ -15,7 +15,7 @@ ingredients:
     - 40g de sucre
     - un sachet de levure chimique
     - quelques cuillère à soupes d'huile neutre
-    - extrait de vanille (autre possibilités: sucre vanillé, extrait d'orange, cannelle, etc.)
+    - extrait de vanille (autre possibilités sucre vanillé, extrait d'orange, cannelle, etc.)
     - une pincée de sel
 method:
     - Mélanger les ingrédients secs (levure, farine, sucre et sel)

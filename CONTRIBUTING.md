@@ -30,8 +30,6 @@ You can start by committing your changes to git. You can do this by adding the f
 
 ```bash
 git add recipes/dishes/mushroom_risotto.md
-git add _data/recipes_menu.yml
-git add recipes/dishes/index.md
 ```
 
 Then you need to commit your changes.
