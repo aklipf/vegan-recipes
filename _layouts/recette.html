@@ -57,14 +57,14 @@ layout: default
     <div class="column is-4">
         {% if page.prep_time %}
         <div class="box has-text-centered">
-            <strong>Temps de préparation:</strong> {{ page.prep_time | date: "%k hours %M minutes" }}
+            <strong>Temps de préparation:</strong> {{ page.prep_time | date: "%k heures %M minutes" }}
         </div>
         {% endif %}
     </div>
     <div class="column is-4">
         {% if page.cook_time %}
         <div class="box has-text-centered">
-            <strong>Temps de cuisson:</strong> {{ page.cook_time | date: "%k hours %M minutes" }}
+            <strong>Temps de cuisson:</strong> {{ page.cook_time | date: "%k heures %M minutes" }}
         </div>
         {% endif %}
     </div>

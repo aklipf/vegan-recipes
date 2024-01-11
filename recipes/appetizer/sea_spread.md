@@ -1,7 +1,6 @@
 ---
 layout: recette
 title: Tartinade de la mer
-
 description: Recette d'une tartinade de la mer
 date: 09-01-2024
 author: Mathilde

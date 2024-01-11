@@ -1,7 +1,6 @@
 ---
 layout: recette
 title: Faux Gras
-
 description: Recette de faux gras
 date: 09-01-2024
 author: Mathilde
