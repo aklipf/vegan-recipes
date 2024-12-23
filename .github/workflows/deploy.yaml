@@ -1,4 +1,3 @@
-name: Zola on GitHub Pages
 
 on:
   push:
@@ -11,7 +10,7 @@ jobs:
     name: zbrox/zola-deploy-action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
     - name: zbrox/zola-deploy-action
       uses: zbrox/zola-deploy-action@master
       env:
