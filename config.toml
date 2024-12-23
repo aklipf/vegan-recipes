@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://aklipf.github.io/vegan-recipes"
+base_url = "https://vegan.astrid-klipfel.net"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
