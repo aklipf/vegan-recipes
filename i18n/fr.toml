@@ -1,0 +1,34 @@
+# Global settings
+settings_locale = "fr"
+settings_date_locale = "fr_FR"
+settings_date_format = "%d %m %Y"
+
+# Simple language resources
+empty_page_title = "Sans titre"
+empty_page_description = "Sans description"
+read_more = "En savoir plus"
+previous_posts = "Recette précédante"
+next_posts = "Recette suivante"
+reading_time = "de préparation"
+aria_to_homepage = "Retour à la page principale"
+aria_menu = "Menu"
+with_tag = "par catégorie"
+not_found_header = "La page que vous cherchez n'existe pas."
+not_found_text = "Désolé, la page que vous cherchez n'exite plus."
+
+# Nouns with singular and plural
+[words]
+one = "mot"
+other = "mots"
+
+[minutes]
+one = "minute"
+other = "minutes"
+
+[posts]
+one = "recette"
+other = "recettes"
+
+[tags]
+one = "catégorie"
+other = "catégories"

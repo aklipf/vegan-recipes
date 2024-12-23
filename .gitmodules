@@ -1,0 +1,3 @@
+[submodule "themes/zolarwind"]
+	path = themes/zolarwind
+	url = https://github.com/thomasweitzel/zolarwind

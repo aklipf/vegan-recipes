@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% set scaled_banner = resize_image(path=page.colocated_path ~ page.extra.image, width=2048,height=512, op="fill") %}
+
+  <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+    <article class="prose">
+      <div class="h-48 rounded-md shadow-md">
+        <img class="h-48 w-full object-cover" src="{{ scaled_banner.url }}" alt="{{ page.title | default(value=res.empty_page_title) | striptags }}">
+      </div>
+      <h1>{{ page.title | default(value=res.empty_page_title) | striptags }}</h1>
+      <div>
+        <p>
+          <span class="mr-2 text-sm">
+            <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(locale=date_locale, format=date_format) }}</time> &middot;
+            {{ page.word_count | num_format(locale=locale) }} {{ page.word_count | pluralize(singular=res.words.one, plural=res.words.other) }} &middot;
+            {{ page.reading_time | num_format(locale=locale) }} {{ page.reading_time | pluralize(singular=res.minutes.one, plural=res.minutes.other) }} {{ res.reading_time }}
+          </span>
+          {% include "partials/tags.html" %}
+        </p>
+      </div>
+
+      <div>
+        {{ page.content | safe }}
+      </div>
+    </article>
+  </div>
+
+  {% include "partials/ld-blog-posting.html" %}
+
+{% endblock %}
