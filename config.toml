@@ -1,0 +1,39 @@
+# The URL the site will be built for
+base_url = "https://aklipf.github.io/vegan-recipes"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+minify_html = true
+
+default_language = "fr"
+theme = "zolarwind"
+
+generate_feeds = true
+
+taxonomies = [
+    { name = "tags", paginate_by = 6, feed = true},
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+title = "Recettes vegan"
+
+# Path to the language resource files
+path_language_resources = "i18n/"
+
+site_description = "Un petit site internet pour que j'arrête d'oublier mes recettes!"
+
+# The main navigation menu
+menu_pages = [
+    { title = "Bases", url = "/bases/" },
+    { title = "Plats", url = "/dishes/" },
+]
