@@ -2,7 +2,7 @@
 date = 2024-01-11
 title = "Pâte à l'avocat"
 description = "Recette de pâte très simple et rapide"
-authors = ["Astrid Klipfel"]
+authors = ["Astrid"]
 [taxonomies]
 tags = ["plat", "avocat", "pâte"]
 [extra]

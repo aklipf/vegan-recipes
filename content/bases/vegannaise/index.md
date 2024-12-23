@@ -2,7 +2,7 @@
 date = 2024-01-11
 title = "Végannaise et dérivées"
 description = "Recette de végannaise, sauce cocktail et sauce samouraï."
-authors = ["Astrid Klipfel"]
+authors = ["Astrid"]
 [taxonomies]
 tags = ["base", "sauce"]
 [extra]

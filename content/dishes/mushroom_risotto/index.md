@@ -2,7 +2,7 @@
 date = 2024-01-08
 title = "Risotto aux champignons"
 description = "Risotto aux champignons sans prise de tête"
-authors = ["Astrid Klipfel"]
+authors = ["Astrid"]
 [taxonomies]
 tags = ["plat", "champignon", "risotto", "riz"]
 [extra]

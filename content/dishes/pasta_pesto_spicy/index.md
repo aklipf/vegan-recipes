@@ -2,7 +2,7 @@
 date = 2024-01-11
 title = "Pâte au pesto rouge et tofu épicé"
 description = "Recette de pâte épicé rapide avec du pesto rouge"
-authors = ["Astrid Klipfel"]
+authors = ["Astrid"]
 [taxonomies]
 tags = ["plat", "épicé", "tofu", "pâte"]
 [extra]
