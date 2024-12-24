@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - risotto</title>
+    <link href="https://vegan.astrid-klipfel.net/tags/risotto/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vegan.astrid-klipfel.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-08T00:00:00+00:00</updated>
+    <id>https://vegan.astrid-klipfel.net/tags/risotto/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Risotto aux champignons</title>
+        <published>2024-01-08T00:00:00+00:00</published>
+        <updated>2024-01-08T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/mushroom-risotto/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/mushroom-risotto/</id>
+        
+        <content type="html">&lt;p&gt;#total_time: PT1H10M
+recipe_yield: 2 à 3 personnes
+#keywords: recipe,cooking,dessert
+recipe_category: Plats&lt;&#x2F;p&gt;
+&lt;p&gt;ingredients:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;400g de champignons&lt;&#x2F;li&gt;
+&lt;li&gt;2 verres de riz à risotto (2x20cl)&lt;&#x2F;li&gt;
+&lt;li&gt;5 verres de bouillon le légumes (5x20cl)&lt;&#x2F;li&gt;
+&lt;li&gt;2 oignon&lt;&#x2F;li&gt;
+&lt;li&gt;3 gousses d&#x27;ailes&lt;&#x2F;li&gt;
+&lt;li&gt;10 cl de crème de soja&lt;&#x2F;li&gt;
+&lt;li&gt;huile d&#x27;olive&lt;&#x2F;li&gt;
+&lt;li&gt;quelques cuillères à soupes de levure maltée&lt;&#x2F;li&gt;
+&lt;li&gt;sel et poivre
+method:&lt;&#x2F;li&gt;
+&lt;li&gt;Emincer l&#x27;oignon et les champignons en gros morceaux&#x2F;&lt;&#x2F;li&gt;
+&lt;li&gt;Faites revenir l&#x27;oignon avec un peu d&#x27;huile sans ajouter de sel ou de poivre.&lt;&#x2F;li&gt;
+&lt;li&gt;Ajoutez les champignons et faites-les revenir.&lt;&#x2F;li&gt;
+&lt;li&gt;Salez, poivrez et réservez.&lt;&#x2F;li&gt;
+&lt;li&gt;Préparez le bouillon pour qu&#x27;il soit chaud.&lt;&#x2F;li&gt;
+&lt;li&gt;Faites chauffer un filet d&#x27;huile d&#x27;olive dans une grande poêle puis ajoutez le riz pendant 2&#x2F;3 minutes. Remuez jusqu&#x27;à ce qu&#x27;il soit translucide.&lt;&#x2F;li&gt;
+&lt;li&gt;Ajouter le bouillon petit à petit au cours de la cuisson en remuant.&lt;&#x2F;li&gt;
+&lt;li&gt;Quand le riz est cuit, ajoutez la crème de soja et quelques cuillères à soupe de levure maltée, le sel et le poivre.&lt;&#x2F;li&gt;
+&lt;li&gt;Disposez le riz dans le fond d&#x27;une assiette et déposez les champignons dessus
+#prep_time: PT0H10M&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

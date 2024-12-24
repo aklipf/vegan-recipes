@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - avocat</title>
+    <link href="https://vegan.astrid-klipfel.net/tags/avocat/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vegan.astrid-klipfel.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-11T00:00:00+00:00</updated>
+    <id>https://vegan.astrid-klipfel.net/tags/avocat/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Pâte à l&#x27;avocat</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/pasta-avocado/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/pasta-avocado/</id>
+        
+        <content type="html">&lt;p&gt;ingredients:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pâte (Pour 2 personnes, par exemple des spaghetti)&lt;&#x2F;li&gt;
+&lt;li&gt;2 avocats bien mûre&lt;&#x2F;li&gt;
+&lt;li&gt;Piment d&#x27;espelette (ou de cayenne selon les goûts)&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre
+method:&lt;&#x2F;li&gt;
+&lt;li&gt;Préparez les pâtes.&lt;&#x2F;li&gt;
+&lt;li&gt;Mixez l&#x27;avocat (ou les écraser avec une fourchette).&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez l&#x27;avocat avec le piment, le sel et le poivre. Vous pouvez ajouter quelques cuillères à soupe d&#x27;eau de cuisson des pâtes.&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez les pâtes et la préparation à l&#x27;avocat.
+prep_time: PT0H10M
+cook_time: PT0H8min
+recipe_yield: 2 personnes
+recipe_category: Plats&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

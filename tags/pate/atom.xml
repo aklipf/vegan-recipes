@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - pâte</title>
+    <link href="https://vegan.astrid-klipfel.net/tags/pate/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vegan.astrid-klipfel.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-11T00:00:00+00:00</updated>
+    <id>https://vegan.astrid-klipfel.net/tags/pate/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Pâte brisée</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/bases/pastry/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/bases/pastry/</id>
+        
+        <content type="html">&lt;p&gt;ingredients:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;240g de farine&lt;&#x2F;li&gt;
+&lt;li&gt;75g d&#x27;huile (olive par exemple)&lt;&#x2F;li&gt;
+&lt;li&gt;100g d&#x27;eau (10cl)&lt;&#x2F;li&gt;
+&lt;li&gt;sel
+method:&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez tous les ingrédients dans un récipient (avec vos mains par exemple).
+prep_time: PT0H10M
+recipe_yield: Fond pour une grande quiche
+keywords: recipe,cooking,bases
+recipe_category: Bases&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Cette pâte permet de faire des quiches et des tartes. Elle a une texture et un goût qui ressemble un peu plus à du pain qu&#x27;une pâte brisée classique.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Curry poivron lait de coco</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Sarah</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/curry/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/curry/</id>
+        
+        <content type="html">&lt;p&gt;ingredients:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Des pâtes, des nouilles ou du riz (Pour 2 à 3 personnes, par exemple des spaghetti, si vous prenez des nouilles vérifiez qu&#x27;elles soient vegan ou prenez de nouille à base de riz)&lt;&#x2F;li&gt;
+&lt;li&gt;1 oignon&lt;&#x2F;li&gt;
+&lt;li&gt;2 poivrons&lt;&#x2F;li&gt;
+&lt;li&gt;25cl de lait de coco&lt;&#x2F;li&gt;
+&lt;li&gt;Huile d&#x27;olive&lt;&#x2F;li&gt;
+&lt;li&gt;Curry (du curry tandoori par exemple)&lt;&#x2F;li&gt;
+&lt;li&gt;Bouillon cube (de légume par exemple)&lt;&#x2F;li&gt;
+&lt;li&gt;Jus de citron (optionnel)&lt;&#x2F;li&gt;
+&lt;li&gt;2 gousses d&#x27;ail (optionnel)&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre
+method:&lt;&#x2F;li&gt;
+&lt;li&gt;Coupez les oignons et les poivrons.&lt;&#x2F;li&gt;
+&lt;li&gt;Dans une poêle, faites revenir un oignon dans un filet d&#x27;huile d&#x27;olive.&lt;&#x2F;li&gt;
+&lt;li&gt;Faites chauffer de l&#x27;eau salée pour faire cuire vos pâtes&#x2F;nouilles&#x2F;riz.&lt;&#x2F;li&gt;
+&lt;li&gt;Faites revenir les poivrons avec les oignons. Vous pouvez le faire cuire longtemps sous couvercle pour qu&#x27;ils soient bien cuits. Cependant vous pouvez aussi moins les cuire et laisser les poivrons légèrement croquant en fonction de votre goût.&lt;&#x2F;li&gt;
+&lt;li&gt;Effectuez la cuisson des pâtes&#x2F;nouilles&#x2F;riz.&lt;&#x2F;li&gt;
+&lt;li&gt;Ajoutez le lait de coco, le bouillon émietté, quelques cuillères à café de curry, du sel et du poivre.&lt;&#x2F;li&gt;
+&lt;li&gt;Vous pouvez ajouter de l&#x27;ail pressé ou quelques goûts de jus de citron.&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez à feu doux pendant quelques minutes.&lt;&#x2F;li&gt;
+&lt;li&gt;Ajoutez les pâtes&#x2F;nouilles&#x2F;riz à la sauce et mélangez.
+prep_time: PT0H15M
+cook_time: PT0H45M
+recipe_yield: Pour 2 à 3 personnes.
+keywords: recipe,cooking,dishes
+recipe_category: Plats&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Pâte à l&#x27;avocat</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/pasta-avocado/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/pasta-avocado/</id>
+        
+        <content type="html">&lt;p&gt;ingredients:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pâte (Pour 2 personnes, par exemple des spaghetti)&lt;&#x2F;li&gt;
+&lt;li&gt;2 avocats bien mûre&lt;&#x2F;li&gt;
+&lt;li&gt;Piment d&#x27;espelette (ou de cayenne selon les goûts)&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre
+method:&lt;&#x2F;li&gt;
+&lt;li&gt;Préparez les pâtes.&lt;&#x2F;li&gt;
+&lt;li&gt;Mixez l&#x27;avocat (ou les écraser avec une fourchette).&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez l&#x27;avocat avec le piment, le sel et le poivre. Vous pouvez ajouter quelques cuillères à soupe d&#x27;eau de cuisson des pâtes.&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez les pâtes et la préparation à l&#x27;avocat.
+prep_time: PT0H10M
+cook_time: PT0H8min
+recipe_yield: 2 personnes
+recipe_category: Plats&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Pâte au pesto rouge et tofu épicé</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/pasta-pesto-spicy/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/pasta-pesto-spicy/</id>
+        
+        <content type="html">&lt;p&gt;ingredients:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pâte (Pour 2 personnes, par exemple des spaghetti)&lt;&#x2F;li&gt;
+&lt;li&gt;200g de pesto rouge ou purée de tomates séchées (vérifiez qu&#x27;il est bien sans fromage, un pesto rouge contenant des tomates séchées sera très adapté)&lt;&#x2F;li&gt;
+&lt;li&gt;200g de &lt;a href=&#x2F;recipes&#x2F;bases&#x2F;crispy_marinated_tofu.html&gt;tofu mariné&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Sel
+method:&lt;&#x2F;li&gt;
+&lt;li&gt;Préparez les pâtes.&lt;&#x2F;li&gt;
+&lt;li&gt;Faites revenir le tofu dans un peu d&#x27;huile pour qu&#x27;il soit croustillant.&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez le pesto rouge, le tofu et les pâtes
+prep_time: PT0H10M
+cook_time: PT0H10min
+recipe_yield: 2 personnes
+recipe_category: Plats&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

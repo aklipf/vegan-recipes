@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - tofu</title>
+    <link href="https://vegan.astrid-klipfel.net/tags/tofu/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vegan.astrid-klipfel.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-11T00:00:00+00:00</updated>
+    <id>https://vegan.astrid-klipfel.net/tags/tofu/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Tofu croustillant</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/bases/tofu/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/bases/tofu/</id>
+        
+        <content type="html">&lt;p&gt;ingredients:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;200g de tofu&lt;&#x2F;li&gt;
+&lt;li&gt;5cl d&#x27;huile neutre (tournesol par exemple)&lt;&#x2F;li&gt;
+&lt;li&gt;5 cuillères à soupe de sauce soja&lt;&#x2F;li&gt;
+&lt;li&gt;Piment de Cayenne&lt;&#x2F;li&gt;
+&lt;li&gt;Herbes de provence&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre
+method:&lt;&#x2F;li&gt;
+&lt;li&gt;Découpez le tofu en petits morceaux.&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez l&#x27;huile, la sauce soja, le piment, l&#x27;herbe de provence, le sel et le poivre.&lt;&#x2F;li&gt;
+&lt;li&gt;Dans une assiette creuse, mélangez le tofu et la marinade. Laissez mariner au frigo quelques heures.&lt;&#x2F;li&gt;
+&lt;li&gt;Versez le tofu et la marinade dans un poêle et faites frire le tofu pour qu&#x27;il soit croustillant.
+prep_time: PT2H0M
+cook_time: PT0H10M
+#recipe_yield: Pour 2 à 3 personnes.
+keywords: recipe,cooking,bases&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Pâte au pesto rouge et tofu épicé</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/pasta-pesto-spicy/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/pasta-pesto-spicy/</id>
+        
+        <content type="html">&lt;p&gt;ingredients:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pâte (Pour 2 personnes, par exemple des spaghetti)&lt;&#x2F;li&gt;
+&lt;li&gt;200g de pesto rouge ou purée de tomates séchées (vérifiez qu&#x27;il est bien sans fromage, un pesto rouge contenant des tomates séchées sera très adapté)&lt;&#x2F;li&gt;
+&lt;li&gt;200g de &lt;a href=&#x2F;recipes&#x2F;bases&#x2F;crispy_marinated_tofu.html&gt;tofu mariné&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Sel
+method:&lt;&#x2F;li&gt;
+&lt;li&gt;Préparez les pâtes.&lt;&#x2F;li&gt;
+&lt;li&gt;Faites revenir le tofu dans un peu d&#x27;huile pour qu&#x27;il soit croustillant.&lt;&#x2F;li&gt;
+&lt;li&gt;Mélangez le pesto rouge, le tofu et les pâtes
+prep_time: PT0H10M
+cook_time: PT0H10min
+recipe_yield: 2 personnes
+recipe_category: Plats&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
