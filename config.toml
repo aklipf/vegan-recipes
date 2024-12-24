@@ -32,6 +32,8 @@ path_language_resources = "i18n/"
 
 site_description = "Un petit site internet pour que j'arrête d'oublier mes recettes!"
 
+favicon_svg = "leaf-solid.svg"
+
 # The main navigation menu
 menu_pages = [
     { title = "Bases", url = "/bases/" },
