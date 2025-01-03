@@ -4,7 +4,7 @@ title = "Le plat de ma grand mère"
 description = "La version vegan d'une recette de famille qui perdure depuis 4 générations"
 authors = ["Sophie"]
 [taxonomies]
-tags = ["plat", "hiver"]
+tags = ["plat", "ragoût", "hiver"]
 ingredients = ["pomme de terre", "patate", "carotte", "tomate", "haricot vert", "poireau", "laurier", "bouillon", "margarine", "farine"]
 [extra]
 image = "stew.jpg"

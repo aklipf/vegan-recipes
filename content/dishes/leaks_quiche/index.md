@@ -4,7 +4,7 @@ title = "Quiche aux poireaux"
 description = "Recette simple de quiche aux poireaux"
 authors = ["Astrid"]
 [taxonomies]
-tags = ["plat", "four"]
+tags = ["plat", "tarte"]
 ingredients = ["pâte brisée", "poireau", "oignon", "crème de soja", "fécule de maïs", "muscade", "levure malté", "bouillon"]
 [extra]
 image = "quiche.jpg"

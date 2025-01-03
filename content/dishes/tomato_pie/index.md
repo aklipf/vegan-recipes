@@ -4,7 +4,7 @@ title = "Tarte à la tomate"
 description = "Recette de tarte à la tomate et à la moutarde"
 authors = ["Astrid"]
 [taxonomies]
-tags = ["plat", "été"]
+tags = ["plat", "été", "tarte"]
 ingredients = ["pâte brisée", "chaplure", "tomate", "moutarde"]
 [extra]
 image = "tomato_pie.jpg"
