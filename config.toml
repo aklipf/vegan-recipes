@@ -16,6 +16,7 @@ generate_feeds = true
 
 taxonomies = [
     { name = "tags", paginate_by = 6, feed = true},
+    { name = "ingredients", paginate_by = 6, feed = true, render = false},
 ]
 
 [markdown]
@@ -32,10 +33,13 @@ path_language_resources = "i18n/"
 
 site_description = "Un petit site internet pour que j'arrête d'oublier mes recettes!"
 
-favicon_svg = "leaf-solid.svg"
+favicon_svg = "/leaf-solid.svg"
 
 # The main navigation menu
 menu_pages = [
     { title = "Bases", url = "/bases/" },
     { title = "Plats", url = "/dishes/" },
+    { title = "Apéro !", url = "/appetizers/" },
+    { title = "Desserts", url = "/desserts/" },
+    { title = "Sur le pouce", url = "/takeaways/" },
 ]

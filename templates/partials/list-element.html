@@ -28,12 +28,14 @@
           <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">
             {{ page.date | date(locale=date_locale, format=date_format) }}
           </time>
+          {% if page.extra.cooking_time is defined %}
           <span class="mx-1">
             &middot;
           </span>
           <span>
-            {{ page.reading_time | num_format(locale=locale) }} {{ page.reading_time | pluralize(singular=res.minutes.one, plural=res.minutes.other) }} {{ res.reading_time }}
+            {{ page.extra.cooking_time | safe }} {{ res.reading_time }}
           </span>
+          {% endif %}
         </div>
       </div>
     </div>

@@ -2,7 +2,11 @@
 
 {% block content %}
 
-  {% set scaled_banner = resize_image(path=page.colocated_path ~ page.extra.image, width=2048,height=512, op="fill") %}
+  {% set banner = "/img/default-banner.jpg" %}
+  {% if page.extra.image is defined %}
+    {% set banner = page.colocated_path ~ page.extra.image %}
+  {% endif %}
+  {% set scaled_banner = resize_image(path=banner, width=2048,height=512, op="fill") %}
 
   <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
     <article class="prose">
@@ -13,13 +17,24 @@
       <div>
         <p>
           <span class="mr-2 text-sm">
-            <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(locale=date_locale, format=date_format) }}</time> &middot;
-            {{ page.word_count | num_format(locale=locale) }} {{ page.word_count | pluralize(singular=res.words.one, plural=res.words.other) }} &middot;
-            {{ page.reading_time | num_format(locale=locale) }} {{ page.reading_time | pluralize(singular=res.minutes.one, plural=res.minutes.other) }} {{ res.reading_time }}
+            <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(locale=date_locale, format=date_format) }}</time>
+            {% if page.extra.cooking_time is defined %} &middot; {{ page.extra.cooking_time | safe }} {{ res.reading_time }}{% endif %}
           </span>
           {% include "partials/tags.html" %}
         </p>
       </div>
+      {% if page.extra.ingredients is defined %}
+      <div>
+        <h2>Ingrédients</h2>
+        <p>
+          <ul>
+            {% for ingredient in page.extra.ingredients %}
+            <li>{{ ingredient | safe }}</li>
+            {% endfor %}
+          </ul>
+        </p>
+      </div>
+      {% endif %}
 
       <div>
         {{ page.content | safe }}

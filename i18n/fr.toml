@@ -1,14 +1,14 @@
 # Global settings
 settings_locale = "fr"
 settings_date_locale = "fr_FR"
-settings_date_format = "%d %m %Y"
+settings_date_format = "%e %B %Y"
 
 # Simple language resources
 empty_page_title = "Sans titre"
 empty_page_description = "Sans description"
 read_more = "En savoir plus"
-previous_posts = "Recette précédante"
-next_posts = "Recette suivante"
+previous_posts = "Page précédante"
+next_posts = "Page suivante"
 reading_time = "de préparation"
 aria_to_homepage = "Retour à la page principale"
 aria_menu = "Menu"

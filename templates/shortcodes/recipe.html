@@ -1,0 +1,22 @@
+<a href="{{get_url(path=path)}}">
+
+{# Getting the path #}
+
+{% if path is ending_with(".md") %}
+{% set raw_recipe = load_data(path=path,format="plain") -%}
+{% else %}
+{% set raw_recipe = load_data(path=path ~ "/index.md",format="plain") -%}
+{% endif %}
+
+{# loading metadata #}
+
+{% if raw_recipe is starting_with("+++") %}
+{% set header = raw_recipe | split(pat="+++") | nth(n=1)  %}
+{% else %}
+{% set header = raw_recipe | split(pat="---") | nth(n=1)  %}
+{% endif %}
+{% set header = load_data(literal=header,format="toml") -%}
+
+{# display the link #}
+
+{{header["title"]}}<font size="4">📒</font> </a>

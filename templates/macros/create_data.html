@@ -1,0 +1,19 @@
+{%- macro from_section(section) -%}
+{%- set section = get_section(path=section) -%}
+{%- for post in section.pages -%}
+{%- if not post.draft -%}
+{
+"title": {{ post.title | striptags | json_encode | safe }},
+"url": {{ post.permalink | json_encode | safe }},
+"body": "{% if post.taxonomies.ingredients is defined %}{% for ingredient in post.taxonomies.ingredients %}{% for token in ingredient | lower | split(pat=" ") %}{% if token is matching("\D") %}{{ token | safe}}{% endif %} {% endfor %}{% endfor %}{% endif %}{%- if post.taxonomies.tags -%}{% for tag in post.taxonomies.tags %} {{ tag }} {%- endfor -%}{%- endif -%}"
+}
+{%- if not loop.last -%},{%- endif %}
+{%- endif -%}
+{%- endfor -%}
+{%- if section.subsections -%},
+{%- for subsection in section.subsections -%}
+{{ self::from_section(section=subsection) }}
+{%- if not loop.last -%},{%- endif %}
+{%- endfor -%}
+{%- endif -%}
+{%- endmacro from_section -%}
