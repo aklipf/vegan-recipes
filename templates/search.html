@@ -27,7 +27,7 @@
     await init('/tinysearch_engine_bg.wasm');
 
     var matches = /q=([^&#=]*)/.exec(window.location.search);
-    let value = decodeURI(matches[1]);
+    let value = decodeURI(matches[1]).replace("+", " ");
     console.log(`Search query: ${value}`);
 
     // Retrieve 5 results
