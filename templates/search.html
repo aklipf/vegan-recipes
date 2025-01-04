@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+<script type="module">
+  // Use ES module import syntax to import functionality from the module
+  // that we have compiled.
+  //
+  // Note that the `default` import is an initialization function which
+  // will "boot" the module and make it ready to use. Currently, browsers
+  // don't support natively imported WebAssembly as an ES module, but
+  // eventually the manual initialization won't be required!
+  import { search, default as init } from './tinysearch_engine.js';
+
+  window.search = search;
+
+  async function run() {
+    // First up we need to actually load the WASM file, so we use the
+    // default export to inform the script where the WASM file is located on
+    // the server. Then we await the returned promise to wait for the
+    // WASM content to be loaded.
+    //
+    // Note that instead of a string here you can also pass in an instance
+    // of `WebAssembly.Module` which allows you to compile your own module.
+    // Also note that the promise, when resolved, yields the WASM module's
+    // exports which is the same as importing the `*_bg` module in other
+    // modes
+    await init('./tinysearch_engine_bg.wasm');
+
+    var matches = /q=([^&#=]*)/.exec(window.location.search);
+    let value = matches[1];
+    console.log(`Search query: ${value}`);
+
+    // Retrieve 5 results
+    const results = search(value, 5);
+
+    console.log(`Results: ${results}`);
+
+    let ul = document.getElementById("results");
+    ul.innerHTML = "";
+
+    for (var i = 0; i < results.length; i++) {
+      var li = document.createElement("li");
+
+      let [title, url] = results[i];
+      let elemlink = document.createElement('a');
+      elemlink.innerHTML = title;
+      elemlink.setAttribute('href', url);
+      li.appendChild(elemlink);
+
+      ul.appendChild(li);
+    }
+  }
+
+  run();
+</script>
+
+<div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+  <article class="prose">
+    <h1>Résultats</h1>
+    <p>
+    <ul id="results"></ul>
+    </p>
+  </article>
+</div>
+{% endblock content %}
