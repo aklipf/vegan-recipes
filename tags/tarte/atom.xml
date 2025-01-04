@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - tarte</title>
+    <link href="https://vegan.astrid-klipfel.net/tags/tarte/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vegan.astrid-klipfel.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-01T00:00:00+00:00</updated>
+    <id>https://vegan.astrid-klipfel.net/tags/tarte/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Tarte à la tomate</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/tomato-pie/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/tomato-pie/</id>
+        
+        <content type="html">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vegan.astrid-klipfel.net&#x2F;bases&#x2F;pastry&quot;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pâte brisée&lt;font size=&quot;4&quot;&gt;📒&lt;&#x2F;font&gt; &lt;&#x2F;a&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Chaplures (optionnel)&lt;&#x2F;li&gt;
+&lt;li&gt;5 tomates&lt;&#x2F;li&gt;
+&lt;li&gt;Moutarde&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Placez la pâte dans un plat à tarte, piquez la pâte avec une fourchette. Étalez la moutarde et saupoudrez de chapelure pour éviter que la pâte ne soit trop humide. Coupez les tomates en rondelles et disposez les dans le plat. Enfournez 45 minutes à 210 °C.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Quiche aux poireaux</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/leaks-quiche/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/leaks-quiche/</id>
+        
+        <content type="html">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vegan.astrid-klipfel.net&#x2F;bases&#x2F;pastry&quot;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pâte brisée&lt;font size=&quot;4&quot;&gt;📒&lt;&#x2F;font&gt; &lt;&#x2F;a&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;3 poireaux&lt;&#x2F;li&gt;
+&lt;li&gt;1 oignon&lt;&#x2F;li&gt;
+&lt;li&gt;Huile végétale&lt;&#x2F;li&gt;
+&lt;li&gt;Chaplure (optionnel)&lt;&#x2F;li&gt;
+&lt;li&gt;25 cl de crèmes de soja (une brique)&lt;&#x2F;li&gt;
+&lt;li&gt;3 cuillières à soupe de fécule de maïs&lt;&#x2F;li&gt;
+&lt;li&gt;Bouillon de légume&lt;&#x2F;li&gt;
+&lt;li&gt;Muscade (optionnel)&lt;&#x2F;li&gt;
+&lt;li&gt;3 cuillères de levure malté (optionnel)&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Coupez l&#x27;oignon et les poireaux. Dans une poêle, ajoutez de l&#x27;huile végétale et faites revenir l&#x27;oignon et les poireaux. Salez et poivrez légèrement.&lt;&#x2F;p&gt;
+&lt;p&gt;Dans un récipient, mélangez la crème de soja, la fécule de maïs, le bouillon émietté, la muscade et la levure maltée. Placez la pâte dans un plat à tarte, piquez la pâte avec une fourchette et saupoudrez de chapelure pour éviter que la pâte ne soit trop humide. Disposez les poireaux dans le fond de la tarte puis versez le nappage. Enfournez pour 40 minutes à 210 °C.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

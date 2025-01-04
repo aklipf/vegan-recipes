@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - sauce</title>
+    <link href="https://vegan.astrid-klipfel.net/tags/sauce/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vegan.astrid-klipfel.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-03-29T00:00:00+00:00</updated>
+    <id>https://vegan.astrid-klipfel.net/tags/sauce/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Sauce brune</title>
+        <published>2024-03-29T00:00:00+00:00</published>
+        <updated>2024-03-29T00:00:00+00:00</updated>
+        <author>
+          <name>Mathilde</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/bases/gravy/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/bases/gravy/</id>
+        
+        <content type="html">&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;4 cuillères à soupe de margarine vegan&lt;&#x2F;li&gt;
+&lt;li&gt;30g de farine&lt;&#x2F;li&gt;
+&lt;li&gt;750ml de bouillon de légumes&lt;&#x2F;li&gt;
+&lt;li&gt;2 cuillères à soupe de miso&lt;&#x2F;li&gt;
+&lt;li&gt;1 cuillère à café de poudre d&#x27;oignon&lt;&#x2F;li&gt;
+&lt;li&gt;2 cuillères à soupe de sauce soja&lt;&#x2F;li&gt;
+&lt;li&gt;1 cuillère à soupe de sirop d&#x27;érable&lt;&#x2F;li&gt;
+&lt;li&gt;30g de levure nutritionnelle&lt;&#x2F;li&gt;
+&lt;li&gt;poivre&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Dans une casserole, faire fondre la margarine. Ajouter le farine et poursuivre la cuisson environ 2 minutes en remuant. Incorporer le bouillon et porter a ébullition en remuant avec un fouet. Ajouter le reste des ingrédients et laisser réduire de 15 à 20 minutes en remuant fréquemment.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Végannaise et dérivées</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/bases/vegannaise/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/bases/vegannaise/</id>
+        
+        <content type="html">&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2 cuillères à café de moutarde de Dijon&lt;&#x2F;li&gt;
+&lt;li&gt;1 cuillère à café de jus de citron&lt;&#x2F;li&gt;
+&lt;li&gt;200 ml d’huile végétale neutre (évitez l&#x27;huile d&#x27;olive)&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;explication&quot;&gt;Explication&lt;&#x2F;h2&gt;
+&lt;p&gt;La mayonnaise est une émulsion d&#x27;huile. Dans la mayonnaise classique, l&#x27;émultion est permise par les protéines d&#x27;un jaune d&#x27;oeuf. Il est possible d&#x27;utiliser de la crème de soja (qui contient beaucoup de protéines) ou de l&#x27;eau de pois chiche.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Dans un bol, versez la crème de soja, le jus de citron, le vinaigre de cidre, la moutarde, le poivre et le sel. A l&#x27;aide d&#x27;un batteur électrique ou d&#x27;un mixeur plongeur, mélangez les ingrédients. En mélangeant continuellement, ajoutez l&#x27;huile petit à petit pour faire monter la végannaise. Le mélange devrait épaissir. Corrigez l&#x27;assaisonnement. Vous pouvez ajouter quelques goûts de sauce soja salée ou d&#x27;arôme maggi.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sauce-cocktail&quot;&gt;Sauce cocktail&lt;&#x2F;h2&gt;
+&lt;p&gt;Ajoutez quelques cuillères à café de ketchup à la végannaise. Vous pouvez aussi ajouter un peu de piment de cayenne et d&#x27;arôme maggi.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sauce-samourai&quot;&gt;Sauce samouraï&lt;&#x2F;h2&gt;
+&lt;p&gt;Ajoutez quelques cuillères à café de pâte de harissa. N&#x27;hésitez pas à goûter au fur et à mesure pour ajuster le goût à votre convenance.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

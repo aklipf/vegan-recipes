@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - hiver</title>
+    <link href="https://vegan.astrid-klipfel.net/tags/hiver/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vegan.astrid-klipfel.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-01T00:00:00+00:00</updated>
+    <id>https://vegan.astrid-klipfel.net/tags/hiver/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Le plat de ma grand mère</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        <author>
+          <name>Sophie</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/dishes/grand-mere/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/dishes/grand-mere/</id>
+        
+        <content type="html">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;5 pommes de terre&lt;&#x2F;li&gt;
+&lt;li&gt;5 carottes&lt;&#x2F;li&gt;
+&lt;li&gt;5 tomates&lt;&#x2F;li&gt;
+&lt;li&gt;Grande boîte de conserve de haricots verts&lt;&#x2F;li&gt;
+&lt;li&gt;1 poireau&lt;&#x2F;li&gt;
+&lt;li&gt;3 à 4 feuilles de laurier&lt;&#x2F;li&gt;
+&lt;li&gt;1 bouillon de légumes&lt;&#x2F;li&gt;
+&lt;li&gt;50 g de margarine&lt;&#x2F;li&gt;
+&lt;li&gt;1 bonne cuillère de farine&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Couper tous les légumes en cubes (pas trop petits, pour qu&#x27;ils restent entiers après 1h30 de cuisson)&lt;&#x2F;p&gt;
+&lt;p&gt;Puis faire un roux : faire fondre la margarine puis ajouter la farine et remuer jusqu&#x27;à ce que la farine devienne brune (il faut obtenir une sauce un peu liquide mais pas trop, ajouter du beurre ou de la farine selon, je ne connais pas les quantités exactes)&lt;&#x2F;p&gt;
+&lt;p&gt;Ajouter les pommes de terre et verser le jus de la boîte de haricots pour que ça n&#x27;attache pas 
+Puis tous les autres légumes, le bouillon et les feuilles de laurier 
+Faire cuire à feu moyen pour que les légumes dégagent du jus, si pas assez de liquide ajouter un peu d&#x27;eau
+Saler et poivrer 
+Laisser cuire à feu doux et à couvert pendant 1h30 en remuant régulièrement 
+Si le fond attache un peu, pas de panique, le plat ne prendra pas l&#x27;odeur à condition de ne pas gratter la partie brûlée pour ne pas la mélanger avec le reste &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
