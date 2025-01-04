@@ -2,52 +2,43 @@
 
 {% block content %}
 <script type="module">
-  // Use ES module import syntax to import functionality from the module
-  // that we have compiled.
-  //
-  // Note that the `default` import is an initialization function which
-  // will "boot" the module and make it ready to use. Currently, browsers
-  // don't support natively imported WebAssembly as an ES module, but
-  // eventually the manual initialization won't be required!
   import { search, default as init } from '/tinysearch_engine.js';
 
   window.search = search;
 
   async function run() {
-    // First up we need to actually load the WASM file, so we use the
-    // default export to inform the script where the WASM file is located on
-    // the server. Then we await the returned promise to wait for the
-    // WASM content to be loaded.
-    //
-    // Note that instead of a string here you can also pass in an instance
-    // of `WebAssembly.Module` which allows you to compile your own module.
-    // Also note that the promise, when resolved, yields the WASM module's
-    // exports which is the same as importing the `*_bg` module in other
-    // modes
     await init('/tinysearch_engine_bg.wasm');
 
     var matches = /q=([^&#=]*)/.exec(window.location.search);
-    let value = decodeURI(matches[1]).replace("+", " ");
-    console.log(`Search query: ${value}`);
+    let query = decodeURI(matches[1]).replace("+", " ");
+    console.log(`Search query: ${query}`);
 
-    // Retrieve 5 results
-    const results = search(value, 5);
+    var query_input = document.querySelectorAll("input[name='q']");
+    console.log(`${query_input}`);
+    for (var i = 0; i < query_input.length; i++) {
+      query_input[i].setAttribute("value",query);
+    }
+
+    const results = search(query, 5);
 
     console.log(`Results: ${results}`);
 
-    let ul = document.getElementById("results");
-    ul.innerHTML = "";
-
     for (var i = 0; i < results.length; i++) {
-      var li = document.createElement("li");
-
-      let [title, url] = results[i];
-      let elemlink = document.createElement('a');
-      elemlink.innerHTML = title;
-      elemlink.setAttribute('href', url);
-      li.appendChild(elemlink);
-
-      ul.appendChild(li);
+      var [title,data]=results[i];
+      var [url,image]=data.split(",");
+      
+      var els = document.querySelectorAll(`div.hidden a[href$='${url}']`);
+      
+      for (var j = 0; j < els.length; j++) {
+        var el = els[j];
+        var banner = el.getElementsByTagName("img");
+        if(banner.length==1){
+          banner[0].setAttribute("src", image);
+          while ((el = el.parentElement)){
+            el.classList.remove("hidden");
+          }
+        }
+      }
     }
   }
 
@@ -56,10 +47,24 @@
 
 <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
   <article class="prose">
-    <h1>Résultats</h1>
-    <p>
-    <ul id="results"></ul>
-    </p>
+    <h1>Résultats:</h1>
   </article>
 </div>
+
+<div class="container max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% set hidden = true %}
+    {% for entry in config.extra.menu_pages %}
+    {% set section_url = entry.url | trim_start_matches(pat="/") %}
+    {%- set section = get_section(path=section_url ~ "_index.md") -%}
+    {%- for post in section.pages -%}
+    {%- if not post.draft -%}
+    {% set page = post %}
+    {% include "partials/list-element.html" %}
+    {%- endif -%}
+    {%- endfor -%}
+    {%- endfor -%}
+  </div>
+</div>
+
 {% endblock content %}

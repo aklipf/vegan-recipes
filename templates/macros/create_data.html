@@ -2,9 +2,16 @@
 {%- set section = get_section(path=section) -%}
 {%- for post in section.pages -%}
 {%- if not post.draft -%}
+{% set banner = "/img/default-banner.jpg" %}
+{% if post.extra.image is defined %}
+  {% set banner = post.colocated_path ~ post.extra.image %}
+{% endif %}
+{% set scaled_banner = resize_image(path=banner, width=512, op="fit_width") %}
+{% set scaled_banner_url = scaled_banner.static_path | trim_start_matches(pat="static/") %}
+{% set page = post %}
 {
 "title": {{ post.title | striptags | json_encode | safe }},
-"url": {{ post.permalink | json_encode | safe }},
+"url": {{ post.path ~ ",/" ~ scaled_banner_url | json_encode | safe }},
 "body": "{% if post.taxonomies.ingredients is defined %}{% for ingredient in post.taxonomies.ingredients %}{% for token in ingredient | lower | split(pat=" ") %}{% if token is matching("\D") %}{{ token | safe}}{% endif %} {% endfor %}{% endfor %}{% endif %}{%- if post.taxonomies.tags -%}{% for tag in post.taxonomies.tags %} {{ tag }} {%- endfor -%}{%- endif -%}"
 }
 {%- if not loop.last -%},{%- endif %}

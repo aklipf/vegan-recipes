@@ -4,10 +4,10 @@
 {% endif %}
 {% set scaled_banner = resize_image(path=banner, width=512, op="fit_width") %}
 
-<div class="flex flex-col rounded-md shadow-md overflow-hidden">
+<div class="flex flex-col rounded-md shadow-md overflow-hidden{% if hidden is defined %} hidden{% endif %}">
   <div class="flex-shrink-0">
     <a href="{{ page.permalink }}" aria-label="{{ page.title | default(value=res.empty_page_title) }}">
-      <img class="h-48 w-full object-cover" src="{{ scaled_banner.url }}" alt="{{ page.title | default(value=res.empty_page_title) }}" />
+      <img class="h-48 w-full object-cover" src="{% if hidden is not defined %}{{ scaled_banner.url }}{% endif %}" alt="{{ page.title | default(value=res.empty_page_title) }}" />
     </a>
   </div>
   <div class="flex-1 bg-white p-6 flex flex-col justify-between">
