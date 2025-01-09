@@ -4,7 +4,7 @@ title = "Cookies"
 description = "Recette de cookies (9 - 10)"
 authors = ["Mathilde"]
 [taxonomies]
-tags = ["desert", "biscuit", "gateau"]
+tags = ["dessert", "biscuit", "gateau"]
 ingredients = ["chocolat", "sucre", "farine"]
 [extra]
 image = "cookies.jpg"
@@ -21,7 +21,7 @@ cooking_time = "1 heure"
 * Une grosse pincée de sel
 * 160 g de farine T45 ou T55
 * Une cuillère à café de levure chimique
-* 100 g de grosses pépites de chocolat noir + + 30 g (optionnel)
+* 100 g de grosses pépites de chocolat noir + 30 g (optionnel)
 
 ## Préparation
 
