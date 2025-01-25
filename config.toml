@@ -4,9 +4,6 @@ base_url = "https://vegan.astrid-klipfel.net"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
-
 minify_html = true
 
 default_language = "fr"
