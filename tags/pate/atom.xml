@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title> - pâte</title>
+    <link href="https://vegan.astrid-klipfel.net/tags/pate/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://vegan.astrid-klipfel.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-11T00:00:00+00:00</updated>
+    <id>https://vegan.astrid-klipfel.net/tags/pate/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Pâte brisée</title>
+        <published>2024-01-11T00:00:00+00:00</published>
+        <updated>2024-01-11T00:00:00+00:00</updated>
+        <author>
+          <name>Astrid</name>
+        </author>
+        <link rel="alternate" href="https://vegan.astrid-klipfel.net/bases/pastry/" type="text/html"/>
+        <id>https://vegan.astrid-klipfel.net/bases/pastry/</id>
+        
+        <content type="html">&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;240g de farine&lt;&#x2F;li&gt;
+&lt;li&gt;75g d&#x27;huile (olive par exemple)&lt;&#x2F;li&gt;
+&lt;li&gt;100g d&#x27;eau (10cl)&lt;&#x2F;li&gt;
+&lt;li&gt;Sel&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;explication&quot;&gt;Explication&lt;&#x2F;h2&gt;
+&lt;p&gt;Cette pâte permet de faire des quiches et des tartes. Elle a une texture et un goût qui ressemble un peu plus à du pain qu&#x27;une pâte brisée classique.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Mélangez tous les ingrédients dans un récipient (avec vos mains par exemple).&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
