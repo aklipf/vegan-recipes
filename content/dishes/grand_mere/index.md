@@ -24,6 +24,7 @@ cooking_time = "2 heures"
 * 1 bonne cuillère de farine
 
 ## Préparation
+
 Couper tous les légumes en cubes (pas trop petits, pour qu'ils restent entiers après 1h30 de cuisson)
 
 Puis faire un roux : faire fondre la margarine puis ajouter la farine et remuer jusqu'à ce que la farine devienne brune (il faut obtenir une sauce un peu liquide mais pas trop, ajouter du beurre ou de la farine selon, je ne connais pas les quantités exactes)
