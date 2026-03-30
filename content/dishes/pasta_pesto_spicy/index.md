@@ -4,7 +4,7 @@ title = "Pâte au pesto rouge et tofu épicé"
 description = "Recette de pâte épicé rapide avec du pesto rouge"
 authors = ["Astrid"]
 [taxonomies]
-tags = ["plat", "épicé"]
+tags = ["plat", "épicé", "pâtes"]
 ingredients = ["pâte", "pesto", "tomate", "tofu"]
 [extra]
 image = "pasta_pesto_spicy.jpg"

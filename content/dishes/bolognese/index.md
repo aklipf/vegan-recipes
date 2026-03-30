@@ -4,7 +4,7 @@ title = "Bolognaise"
 description = "Bolognaise aux PST à laisser mijoter!"
 authors = ["Astrid"]
 [taxonomies]
-tags = ["plat", "pâte", "PST"]
+tags = ["plat", "pâtes", "PST"]
 ingredients = ["pâte", "tomate", "PST"]
 [extra]
 image = "bolognese.jpg"

@@ -4,7 +4,7 @@ title = "Pâte à l'avocat"
 description = "Recette de pâte très simple et rapide"
 authors = ["Astrid"]
 [taxonomies]
-tags = ["plat", "épicé"]
+tags = ["plat", "épicé", "pâtes"]
 ingredients = ["pâte", "avocat", "piment d'espelette"]
 [extra]
 image = "pate_avocat.jpg"
