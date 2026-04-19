@@ -14,8 +14,8 @@ generate_feeds = true
 taxonomies = [
     { name = "tags", paginate_by = 6, feed = true},
     { name = "ingredients", paginate_by = 6, feed = true, render = false},
-    { name = "seasons", paginate_by = 6, feed = true, render = true},
-    { name = "tooling", paginate_by = 6, feed = true, render = true},
+    { name = "seasons", paginate_by = 6, feed = true, render = false},
+    { name = "tooling", paginate_by = 6, feed = true, render = false},
 ]
 
 [markdown]

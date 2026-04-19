@@ -4,7 +4,8 @@ title = "Risotto aux champignons"
 description = "Risotto aux champignons sans prise de tête"
 authors = ["Astrid"]
 [taxonomies]
-tags = ["plat"]
+  tags = ["plat"]
+  seasons = ["automne"]
 ingredients = ["champignon", "riz à risotto", "bouillon", "oignon", "aile", "crème de soja", "levure maltée"]
 [extra]
 image = "risotto.jpg"

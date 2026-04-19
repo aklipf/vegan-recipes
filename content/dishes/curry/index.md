@@ -4,7 +4,8 @@ title = "Curry poivron lait de coco"
 description = "Recette de curry simple et bonne."
 authors = ["Sarah"]
 [taxonomies]
-tags = ["plat", "épicé", "pâtes"]
+  tags = ["plat", "épicé", "pâtes"]
+  seasons = ["été"]
 ingredients = ["pâtes", "nouilles", "riz", "oignon", "poivron", "lait de coco", "huile d'olive", "huile d'arrachide", "curry", "tandoori", "bouillon", "citron", "ail"]
 [extra]
 image = "curry.jpg"

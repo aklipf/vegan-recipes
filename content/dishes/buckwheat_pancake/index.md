@@ -4,7 +4,8 @@ title = "Galette de sarrasin aux champignons"
 description = "Galette de sarrasin avec une proposition de garniture vegan."
 authors = ["Astrid"]
 [taxonomies]
-tags = ["plat", "galette"]
+  tags = ["plat", "galette"]
+  seasons = ["automne"]
 ingredients = ["sarrasin", "champignons", "oignon", "crème de soja", "levure maltée"]
 [extra]
 image = "buckwheat_mushroom.jpg"
