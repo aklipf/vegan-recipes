@@ -6,6 +6,7 @@ authors = ["Astrid"]
 [taxonomies]
 tags = ["plat", "été", "tarte"]
 ingredients = ["pâte brisée", "chaplure", "tomate", "moutarde"]
+tools = ["four"]
 [extra]
 image = "tomato_pie.jpg"
 cooking_time = "1 heure"

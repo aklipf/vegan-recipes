@@ -10,12 +10,13 @@ default_language = "fr"
 theme = "zolarwind"
 
 generate_feeds = true
+feed_filenames = ["rss.xml","search.xml"]
 
 taxonomies = [
     { name = "tags", paginate_by = 6, feed = true},
     { name = "ingredients", paginate_by = 6, feed = true, render = false},
     { name = "seasons", paginate_by = 6, feed = true, render = false},
-    { name = "tooling", paginate_by = 6, feed = true, render = false},
+    { name = "tools", paginate_by = 6, feed = true, render = false},
 ]
 
 [markdown]
