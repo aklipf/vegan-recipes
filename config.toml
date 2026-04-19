@@ -39,6 +39,6 @@ menu_pages = [
     { title = "Plats", url = "/dishes/" },
     { title = "Apéro !", url = "/appetizers/" },
     { title = "Desserts", url = "/desserts/" },
-    { title = "Sur le pouce", url = "/takeaways/" },
+#    { title = "Sur le pouce", url = "/takeaways/" },
 ]
 
