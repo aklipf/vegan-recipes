@@ -14,6 +14,8 @@ generate_feeds = true
 taxonomies = [
     { name = "tags", paginate_by = 6, feed = true},
     { name = "ingredients", paginate_by = 6, feed = true, render = false},
+    { name = "seasons", paginate_by = 6, feed = true, render = true},
+    { name = "tooling", paginate_by = 6, feed = true, render = true},
 ]
 
 [markdown]
@@ -39,3 +41,4 @@ menu_pages = [
     { title = "Desserts", url = "/desserts/" },
     { title = "Sur le pouce", url = "/takeaways/" },
 ]
+
