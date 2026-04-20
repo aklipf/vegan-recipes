@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search>
+  <item>
+    <title>Tarte flambée</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;flammekueche.5355f998e47231f7.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/flammekueche/</link>
+      <tags><item>plat</item><item>tarte</item><item>alsace</item></tags>
+      <ingredients><item>lardon</item><item>oignon</item><item>crème</item><item>farine</item></ingredients>
+      <seasons></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Tarte à la tomate</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;tomato_pie.92cd0c9e1a35a5d7.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/tomato-pie/</link>
+      <tags><item>plat</item><item>été</item><item>tarte</item></tags>
+      <ingredients><item>pâte brisée</item><item>chaplure</item><item>tomate</item><item>moutarde</item></ingredients>
+      <seasons></seasons>
+      <tools><item>four</item></tools>
+  </item>
+  <item>
+    <title>Quiche aux poireaux</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;quiche.36b69ed19c0a4171.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/leaks-quiche/</link>
+      <tags><item>plat</item><item>tarte</item></tags>
+      <ingredients><item>pâte brisée</item><item>poireau</item><item>oignon</item><item>crème de soja</item><item>fécule de maïs</item><item>muscade</item><item>levure malté</item><item>bouillon</item></ingredients>
+      <seasons><item>hiver</item></seasons>
+      <tools></tools>
+  </item>
+</search>

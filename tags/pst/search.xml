@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search>
+  <item>
+    <title>Mafé</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;mafe.3595540293646326.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/mafe/</link>
+      <tags><item>plat</item><item>épicé</item><item>PST</item></tags>
+      <ingredients><item>PST</item><item>patate douce</item><item>beurre de cacahuète</item><item>carotte</item><item>purée de tomate</item></ingredients>
+      <seasons></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Protéine de soja texturée au madère</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;soy_protein.c6b64f3fd794bab6.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/soy-protein-madeira/</link>
+      <tags><item>plat</item><item>PST</item></tags>
+      <ingredients><item>protéine de soja texturée</item><item>PST</item><item>oignon</item><item>crème de soja</item><item>concentré de tomate</item><item>madère</item><item>sauce soja</item><item>lentilles</item><item>tomate</item><item>carotte</item></ingredients>
+      <seasons></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Bolognaise</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;bolognese.49ce76a118968357.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/bolognese/</link>
+      <tags><item>plat</item><item>pâtes</item><item>PST</item></tags>
+      <ingredients><item>pâte</item><item>tomate</item><item>PST</item></ingredients>
+      <seasons><item>hiver</item></seasons>
+      <tools></tools>
+  </item>
+</search>

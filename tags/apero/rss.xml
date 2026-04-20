@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title> - apéro</title>
+      <link>https://vegan.astrid-klipfel.fr</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>fr</language>
+      <atom:link href="https://vegan.astrid-klipfel.fr/tags/apero/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Mini pizza</title>
+          <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+          <author>Astrid</author>
+          <link>https://vegan.astrid-klipfel.fr/appetizers/mini-pizza/</link>
+          <guid>https://vegan.astrid-klipfel.fr/appetizers/mini-pizza/</guid>
+          <description xml:base="https://vegan.astrid-klipfel.fr/appetizers/mini-pizza/">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pâte feuilletée (beaucoup sont vegan, regardez la liste des ingrédients)&lt;&#x2F;li&gt;
+&lt;li&gt;200g de &lt;a href=&quot;https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;bases&#x2F;tofu&quot;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tofu croustillant&lt;font size=&quot;4&quot;&gt;📒&lt;&#x2F;font&gt; &lt;&#x2F;a&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Purée de tomates&lt;&#x2F;li&gt;
+&lt;li&gt;Herbes de Provence&lt;&#x2F;li&gt;
+&lt;li&gt;Maggi&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Préchauffez un four à 180°C. Découpez la pâte feuilletée en petit cercles. Mélangez la purée de tomates, les herbes de Provence et la maggi. Ajoutez une cuillère de sauce et un morceau de tofu épicé sur chaque mini pizza. Enfournez pour 20 minutes.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Roulé saucisse</title>
+          <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+          <author>Astrid</author>
+          <link>https://vegan.astrid-klipfel.fr/appetizers/sausage-roll/</link>
+          <guid>https://vegan.astrid-klipfel.fr/appetizers/sausage-roll/</guid>
+          <description xml:base="https://vegan.astrid-klipfel.fr/appetizers/sausage-roll/">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pâte feuilletée (beaucoup sont vegan, regardez la liste des ingrédients)&lt;&#x2F;li&gt;
+&lt;li&gt;Saucisse vegan (HappyVore par exemple)&lt;&#x2F;li&gt;
+&lt;li&gt;Purée de tomates&lt;&#x2F;li&gt;
+&lt;li&gt;Moutarde&lt;&#x2F;li&gt;
+&lt;li&gt;Herbes de Provence&lt;&#x2F;li&gt;
+&lt;li&gt;Maggi&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Préchauffez un four à 180°C. Découpez la pâte feuilletée en rectangle assez grand pour envelopper une saucisse. Étalez la purée de tomates ou la moutarde sur la pâte feuilletée. Ajoutez un peu d&#x27;herbes de Provence, de maggi, de poivre et de sel. Ajoutez la saucisse sur la pâte et roulez-la. Vous pouvez ensuite la découper en rondelles avant de les placer sur une plaque avec du papier cuisson. Enfournez pour 20 minutes environ.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search>
+  <item>
+    <title>Banana bread</title>
+      <author>vegan pratique</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;banana_bread.fbfdcc00ab7957a3.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/desserts/banana-bread/</link>
+      <tags><item>dessert</item><item>gâteau</item></tags>
+      <ingredients><item>sucre</item><item>farine</item><item>banane</item><item>amande</item><item>chocolat</item><item>vanille</item></ingredients>
+      <seasons></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Biscuits sablés de Noël</title>
+      <author>Laurianne (perleensucre.com)</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;sables_noel.fbfb3d1a19292522.png</img>
+      <link>https://vegan.astrid-klipfel.fr/desserts/christmas-biscuits/</link>
+      <tags><item>dessert</item><item>gâteau</item><item>noël</item></tags>
+      <ingredients><item>sucre glace</item><item>farine</item><item>cannelle</item><item>pain d&amp;apos;épice</item><item>margarine</item></ingredients>
+      <seasons></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Brownie</title>
+      <author>Mathilde</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;brownie.d14d25384946ed41.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/desserts/brownie/</link>
+      <tags><item>dessert</item><item>gateau</item></tags>
+      <ingredients><item>chocolat</item><item>sucre</item><item>farine</item></ingredients>
+      <seasons></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Cookies</title>
+      <author>Mathilde</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;cookies.03c15d51f91ceb6e.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/desserts/cookies/</link>
+      <tags><item>dessert</item><item>biscuit</item><item>gateau</item></tags>
+      <ingredients><item>chocolat</item><item>sucre</item><item>farine</item></ingredients>
+      <seasons></seasons>
+      <tools></tools>
+  </item>
+</search>

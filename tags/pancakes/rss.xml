@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title> - pancakes</title>
+      <link>https://vegan.astrid-klipfel.fr</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>fr</language>
+      <atom:link href="https://vegan.astrid-klipfel.fr/tags/pancakes/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Pancakes</title>
+          <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+          <author>Astrid</author>
+          <link>https://vegan.astrid-klipfel.fr/desserts/pancakes/</link>
+          <guid>https://vegan.astrid-klipfel.fr/desserts/pancakes/</guid>
+          <description xml:base="https://vegan.astrid-klipfel.fr/desserts/pancakes/">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;250g de farine&lt;&#x2F;li&gt;
+&lt;li&gt;25cl de lait végétal (soja non sucré par exemple)&lt;&#x2F;li&gt;
+&lt;li&gt;100g de compote de pomme&lt;&#x2F;li&gt;
+&lt;li&gt;40g de sucre&lt;&#x2F;li&gt;
+&lt;li&gt;Un sachet de levure chimique&lt;&#x2F;li&gt;
+&lt;li&gt;Quelques cuillère(s) à soupe d&#x27;huile neutre&lt;&#x2F;li&gt;
+&lt;li&gt;Extrait de vanille (autres possibilités : sucre vanillé, extrait d&#x27;orange, cannelle, etc.)&lt;&#x2F;li&gt;
+&lt;li&gt;Une pincée de sel&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Mélanger les ingrédients secs (levure, farine, sucre et sel). Ajouter les ingrédients liquides au fur et à mesure en mélangeant pour éviter les grumeaux (compote de pomme, lait végétal, extrait de vanille). La pâte doit être bien homogène et épaisse (important pour la texture et l&#x27;aspect finale)&lt;&#x2F;p&gt;
+&lt;p&gt;Dans une poêle à feu moyen et légèrement huilée, ajouter une petite louche de pâte et étaler un peu la pâte pour faire un joli cercle. Des bulles devraient se former à la surface grâce à la levure chimique. C&#x27;est cette réaction qui permet d&#x27;obtenir un pancake moelleux. Les laisser cuire sans retourner trop longtemps pour ne pas casser ces bulles, puis retourner et attendre quelques dizaines de secondes pour terminer la cuisson.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;amelioration&quot;&gt;Amélioration&lt;&#x2F;h2&gt;
+&lt;p&gt;Vous pouvez remplacer les 250g de farine de blé par 200g de blé et 50g de poudre de noisette.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

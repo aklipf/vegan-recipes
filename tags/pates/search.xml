@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search>
+  <item>
+    <title>Bolognaise</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;bolognese.49ce76a118968357.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/bolognese/</link>
+      <tags><item>plat</item><item>pâtes</item><item>PST</item></tags>
+      <ingredients><item>pâte</item><item>tomate</item><item>PST</item></ingredients>
+      <seasons><item>hiver</item></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Curry poivron lait de coco</title>
+      <author>Sarah</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;curry.fa8daa53909ce195.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/curry/</link>
+      <tags><item>plat</item><item>épicé</item><item>pâtes</item></tags>
+      <ingredients><item>pâtes</item><item>nouilles</item><item>riz</item><item>oignon</item><item>poivron</item><item>lait de coco</item><item>huile d&amp;apos;olive</item><item>huile d&amp;apos;arrachide</item><item>curry</item><item>tandoori</item><item>bouillon</item><item>citron</item><item>ail</item></ingredients>
+      <seasons><item>été</item></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Pâte à l&#x27;avocat</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;pate_avocat.70303d36a154342a.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/pasta-avocado/</link>
+      <tags><item>plat</item><item>épicé</item><item>pâtes</item></tags>
+      <ingredients><item>pâte</item><item>avocat</item><item>piment d&amp;apos;espelette</item></ingredients>
+      <seasons><item>été</item></seasons>
+      <tools></tools>
+  </item>
+  <item>
+    <title>Pâte au pesto rouge et tofu épicé</title>
+      <author>Astrid</author>
+      <img>https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;pasta_pesto_spicy.641360aadce65272.jpg</img>
+      <link>https://vegan.astrid-klipfel.fr/dishes/pasta-pesto-spicy/</link>
+      <tags><item>plat</item><item>épicé</item><item>pâtes</item></tags>
+      <ingredients><item>pâte</item><item>pesto</item><item>tomate</item><item>tofu</item></ingredients>
+      <seasons><item>été</item></seasons>
+      <tools></tools>
+  </item>
+</search>
