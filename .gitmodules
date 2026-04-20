@@ -1,3 +1,6 @@
 [submodule "themes/zolarwind"]
 	path = themes/zolarwind
-	url = https://github.com/thomasweitzel/zolarwind
+  url = https://github.com/thomasweitzel/zolarwind
+[submodule "search-engin"]
+  path = search-engin
+  url = git@github.com:aklipf/blog-search.git

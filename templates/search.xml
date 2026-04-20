@@ -6,9 +6,9 @@
       <author>{%- if page.authors -%}{{ page.authors[0] }}{%- elif config.author -%}{{ config.author }}{%- else -%}Unknown{%- endif -%}</author>{% if page.extra.image is defined %}{% set img = resize_image(path=page.colocated_path ~ page.extra.image, width=512, op="fit_width") %}
       <img>{{ img.url }}</img>{% endif %}
       <link>{{ page.permalink | escape_xml | safe }}</link>
-      <tags>{%- if page.taxonomies["tags"] %}{%- for tag in page.taxonomies["tags"]%}<item>{{ tag | escape_xml }}</item>{%- endfor %}{%- endif %}</tags>
-      <ingredients>{%- if page.taxonomies["ingredients"] %}{%- for ingredient in page.taxonomies["ingredients"] %}<item>{{ ingredient | escape_xml }}</item>{%- endfor %}{%- endif %}</ingredients>
-      <seasons>{%- if page.taxonomies["seasons"] %}{%- for season in page.taxonomies["seasons"] %}<item>{{ season | escape_xml }}</item>{%- endfor %}{%- endif %}</seasons>
-      <tools>{%- if page.taxonomies["tools"] %}{%- for tool in page.taxonomies["tools"]%}<item>{{ tool | escape_xml }}</item>{%- endfor %}{%- endif %}</tools>
+      <tags>{%- if page.taxonomies.tags %}{%- for tag in page.taxonomies.tags %}<item>{{ tag | escape_xml }}</item>{%- endfor %}{%- endif %}</tags>
+      <ingredients>{%- if page.taxonomies.ingredients %}{%- for ingredient in page.taxonomies.ingredients %}<item>{{ ingredient | escape_xml }}</item>{%- endfor %}{%- endif %}</ingredients>
+      <seasons>{%- if page.taxonomies.seasons %}{%- for season in page.taxonomies.seasons %}<item>{{ season | escape_xml }}</item>{%- endfor %}{%- endif %}</seasons>
+      <tools>{%- if page.taxonomies.tools %}{%- for tool in page.taxonomies.tools %}<item>{{ tool | escape_xml }}</item>{%- endfor %}{%- endif %}</tools>
   </item>{%- endfor %}
 </search>
