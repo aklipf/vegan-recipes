@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+{% set res         = load_data(path=config.extra.path_language_resources ~ config.default_language ~ '.toml') %}
+{% set locale      = res.settings_locale      | default(value="en")        %}
+{% set date_locale = res.settings_date_locale | default(value="en_US")     %}
+{% set date_format = res.settings_date_format | default(value="%B %d, %Y") %}
 <search>
-  {%- for page in pages %}
+<taxonomies>
+  {%- for taxonomy in config.taxonomies %}
   <item>
-    <title>{{ page.title }}</title>
+    <name>{{taxonomy.name}}</name>
+    <terms>{% set taxonomy = get_taxonomy(kind=taxonomy.name) %}{%- for term in taxonomy.items %}
+      <item>
+        <name>{{term.name | escape_xml | safe }}</name>{% set page = get_page(path="static/search.md") %}
+        <link>{{ page.permalink | escape_xml | safe }}?q={{term.name}}</link>
+      </item>
+      {%- endfor %}
+    </terms>
+  </item>
+  {%- endfor %}
+</taxonomies>
+<pages>{%- for page in pages %}
+  <item>
+    <fields>
+      <title>{{ page.title | escape_xml | safe }}</title>
       <author>{%- if page.authors -%}{{ page.authors[0] }}{%- elif config.author -%}{{ config.author }}{%- else -%}Unknown{%- endif -%}</author>{% if page.extra.image is defined %}{% set img = resize_image(path=page.colocated_path ~ page.extra.image, width=512, op="fit_width") %}
-      <img>{{ img.url }}</img>{% endif %}
+      <img>{{ img.url | escape_xml | safe }}</img>{% endif %}
       <link>{{ page.permalink | escape_xml | safe }}</link>
+      <description>{{ page.description | escape_xml | safe }}</description>
+      <date>{{ page.date | date(locale=date_locale, format=date_format) }}</date>
+      <cooking-time>{% if page.extra.cooking_time is defined %}{{ page.extra.cooking_time | safe }} {{ res.reading_time }}{% endif %}</cooking-time>
+    </fields>
+    <taxonomies>
       <tags>{%- if page.taxonomies.tags %}{%- for tag in page.taxonomies.tags %}<item>{{ tag | escape_xml }}</item>{%- endfor %}{%- endif %}</tags>
       <ingredients>{%- if page.taxonomies.ingredients %}{%- for ingredient in page.taxonomies.ingredients %}<item>{{ ingredient | escape_xml }}</item>{%- endfor %}{%- endif %}</ingredients>
       <seasons>{%- if page.taxonomies.seasons %}{%- for season in page.taxonomies.seasons %}<item>{{ season | escape_xml }}</item>{%- endfor %}{%- endif %}</seasons>
       <tools>{%- if page.taxonomies.tools %}{%- for tool in page.taxonomies.tools %}<item>{{ tool | escape_xml }}</item>{%- endfor %}{%- endif %}</tools>
+    </taxonomies>
   </item>{%- endfor %}
+</pages>
 </search>

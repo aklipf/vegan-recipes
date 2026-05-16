@@ -1,49 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-<script type="module">
-  import { search, default as init } from '/tinysearch_engine.js';
-
-  window.search = search;
-
-  async function run() {
-    await init('/tinysearch_engine_bg.wasm');
-
-    var matches = /q=([^&#=]*)/.exec(window.location.search);
-    let query = decodeURI(matches[1]).replace("+", " ");
-    console.log(`Search query: ${query}`);
-
-    var query_input = document.querySelectorAll("input[name='q']");
-    console.log(`${query_input}`);
-    for (var i = 0; i < query_input.length; i++) {
-      query_input[i].setAttribute("value",query);
-    }
-
-    const results = search(query, 6);
-
-    console.log(`Results: ${results}`);
-
-    for (var i = 0; i < results.length; i++) {
-      var [title,data]=results[i];
-      var [url,image]=data.split(",");
-      
-      var els = document.querySelectorAll(`div.hidden a[href$='${url}']`);
-      
-      for (var j = 0; j < els.length; j++) {
-        var el = els[j];
-        var banner = el.getElementsByTagName("img");
-        if(banner.length==1){
-          banner[0].setAttribute("src", image);
-          while ((el = el.parentElement)){
-            el.classList.remove("hidden");
-          }
-        }
-      }
-    }
-  }
-
-  run();
-</script>
 
 <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
   <article class="prose">
@@ -54,16 +11,7 @@
 <div class="container max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     {% set hidden = true %}
-    {% for entry in config.extra.menu_pages %}
-    {% set section_url = entry.url | trim_start_matches(pat="/") %}
-    {%- set section = get_section(path=section_url ~ "_index.md") -%}
-    {%- for post in section.pages -%}
-    {%- if not post.draft -%}
-    {% set page = post %}
     {% include "partials/list-element.html" %}
-    {%- endif -%}
-    {%- endfor -%}
-    {%- endfor -%}
   </div>
 </div>
 
