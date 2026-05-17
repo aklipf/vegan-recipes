@@ -4,7 +4,7 @@ base_url = "https://vegan.astrid-klipfel.fr"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-minify_html = true
+minify_html = false
 
 default_language = "fr"
 theme = "zolarwind"

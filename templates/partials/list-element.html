@@ -4,9 +4,9 @@
 {% endif %}
 {% set scaled_banner = resize_image(path=banner, width=512, op="fit_width") %}
 
-<div class="flex flex-col rounded-md shadow-md overflow-hidden{% if hidden is defined %} hidden{% endif %}" {% if hidden is defined %} id="element"{% endif %}>
+<div class="flex flex-col rounded-md shadow-md overflow-hidden" {% if hidden is defined %} id="element"{% endif %}>
   <div class="flex-shrink-0">
-    <a href="{{ page.permalink }}" aria-label="{{ page.title | default(value=res.empty_page_title) }}">
+    <a id="link_img" href="{{ page.permalink }}" aria-label="{{ page.title | default(value=res.empty_page_title) }}">
       <img class="h-48 w-full object-cover" src="{% if hidden is not defined %}{{ scaled_banner.url }}{% endif %}" {% if hidden is defined %} id="img"{% endif %} alt="{{ page.title | default(value=res.empty_page_title) }}" />
     </a>
   </div>
@@ -14,34 +14,38 @@
     <div class="flex-1">
       {% if hidden is not defined %} {% include "partials/tags.html" %} {% endif %}
       <a href="{% if hidden is not defined %}{{ page.permalink }}{% endif %}
-" class="block" {% if hidden is defined %} id="link"{% endif %}>
+" class="block" {% if hidden is defined %} id="link_title"{% endif %}>
         <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900" {% if hidden is defined %} id="title"{% endif %}>
           {% if hidden is not defined %}{{ page.title | default(value=res.empty_page_title) }}{% endif %}
 
         </h3>
       </a>
-      <p class="mt-3 text-base leading-6 text-gray-500">
+      <p id="description" class="mt-3 text-base leading-6 text-gray-500">
         {% if hidden is not defined %}{{ page.description | default(value=res.empty_page_description) }}{% endif %}
-
       </p>
     </div>
     <div class="mt-6 flex items-center">
       <div>
-        {% if hidden is not defined %}
         <div class="flex text-sm leading-5 text-gray-500">
-          <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">
+          <time id="date" datetime="{% if hidden is not defined %}{{ page.date | date(format='%Y-%m-%d') }}{% endif %}">
             {% if hidden is not defined %}{{ page.date | date(locale=date_locale, format=date_format) }}{% endif %}
           </time>
           {% if page.extra.cooking_time is defined %}
           <span class="mx-1">
             &middot;
           </span>
-          <span>
+          <span>{% if hidden is not defined %}
             {{ page.extra.cooking_time | safe }} {{ res.reading_time }}
+          {% endif %}
+          </span>
+          {% endif %}{% if hidden is defined %}
+          <span class="mx-1">
+            &middot;
+          </span>
+          <span id="cooking-time">
           </span>
           {% endif %}
         </div>
-        {% endif %}
       </div>
     </div>
   </div>
