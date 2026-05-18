@@ -11,7 +11,7 @@
     <terms>{% set taxonomy = get_taxonomy(kind=taxonomy.name) %}{%- for term in taxonomy.items %}
       <item>
         <name>{{term.name | escape_xml | safe }}</name>{% set page = get_page(path="static/search.md") %}
-        <link>{{ page.permalink | escape_xml | safe }}?q={{term.name}}</link>
+        <link>{{ page.permalink | escape_xml | safe }}?query={{term.slug}}</link>
       </item>
       {%- endfor %}
     </terms>
@@ -30,10 +30,10 @@
       <cooking-time>{% if page.extra.cooking_time is defined %}{{ page.extra.cooking_time | safe }} {{ res.reading_time }}{% endif %}</cooking-time>
     </fields>
     <taxonomies>
-      <tags>{%- if page.taxonomies.tags %}{%- for tag in page.taxonomies.tags %}<item>{{ tag | escape_xml }}</item>{%- endfor %}{%- endif %}</tags>
-      <ingredients>{%- if page.taxonomies.ingredients %}{%- for ingredient in page.taxonomies.ingredients %}<item>{{ ingredient | escape_xml }}</item>{%- endfor %}{%- endif %}</ingredients>
-      <seasons>{%- if page.taxonomies.seasons %}{%- for season in page.taxonomies.seasons %}<item>{{ season | escape_xml }}</item>{%- endfor %}{%- endif %}</seasons>
-      <tools>{%- if page.taxonomies.tools %}{%- for tool in page.taxonomies.tools %}<item>{{ tool | escape_xml }}</item>{%- endfor %}{%- endif %}</tools>
+      <tags>{%- if page.taxonomies.tags %}{%- for tag in page.taxonomies.tags %}<item>{{tag | slugify | escape_xml }}</item>{%- endfor %}{%- endif %}</tags>
+      <ingredients>{%- if page.taxonomies.ingredients %}{%- for ingredient in page.taxonomies.ingredients %}<item>{{ ingredient | slugify | escape_xml }}</item>{%- endfor %}{%- endif %}</ingredients>
+      <seasons>{%- if page.taxonomies.seasons %}{%- for season in page.taxonomies.seasons %}<item>{{ season | slugify | escape_xml }}</item>{%- endfor %}{%- endif %}</seasons>
+      <tools>{%- if page.taxonomies.tools %}{%- for tool in page.taxonomies.tools %}<item>{{ tool | slugify | escape_xml }}</item>{%- endfor %}{%- endif %}</tools>
     </taxonomies>
   </item>{%- endfor %}
 </pages>
