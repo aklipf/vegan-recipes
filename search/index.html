@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+  
+  
+  
+  
+  
+
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name=generator content="Zola">
+
+  
+
+  <title>Recettes vegan</title>
+  <link rel="stylesheet" href="/css/generated.css">
+  
+    <link rel="icon" href="&#x2F;leaf-solid.svg" />
+  
+
+  
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed for https://vegan.astrid-klipfel.fr" href="/atom.xml" />
+  
+
+  <script defer src="/js/zolarwind/logic.js" integrity="sha384-GYtsrgYVRYoxdEL+C+79KROm+MCl1ArSzQnqVnPTV78UNz5a1vFxAEiKbobXhQlw"></script>
+  
+  
+</head>
+<body>
+  
+
+
+
+
+<header class="sticky top-0 w-full z-10">
+  <nav class="bg-gray-600">
+    <!-- Navbar container -->
+    <div class="flex items-center justify-between h-16 max-w-7xl mx-auto px-4 lg:px-8">
+
+      <!-- Homepage logo -->
+      <a href="/" aria-label="Retour à la page principale">
+        <div class="h-8 w-8 text-gray-200 hover:text-white fill-current">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+            <path
+              d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15M9 21C9.55228 21 10 20.5523 10 20V16C10 15.4477 10.4477 15 11 15H13C13.5523 15 14 15.4477 14 16V20C14 20.5523 14.4477 21 15 21M9 21H15"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+      </a>
+
+      <!-- Desktop links -->
+      <div class="hidden md:block">
+        
+        
+        
+        <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+          href="/bases/" title="Bases">Bases</a>
+        
+        
+        
+        <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+          href="/dishes/" title="Plats">Plats</a>
+        
+        
+        
+        <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+          href="/appetizers/" title="Apéro !">Apéro !</a>
+        
+        
+        
+        <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+          href="/desserts/" title="Desserts">Desserts</a>
+        
+        
+        
+      </div>
+
+      <!-- Search field -->
+      <form action="/search" class="flex items-center">
+        <input class="px-3 py-2 rounded-md font-medium text-gray-500 bg-gray-900 focus:text-white" type="text" name="query"
+          size="16" placeholder="Rechercher">
+        <button type="submit">
+          <div class="h-6 w-6 ml-2 text-gray-200 hover:text-white fill-current">
+            <svg stroke="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+          </div>
+        </button>
+      </form>
+
+      <!-- Mobile menu icon -->
+      <div class="flex md:hidden">
+        <button id="toggleMobileMenu"
+          class="icon inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+          aria-label="Menu">
+          <span id="mobile-icon-menu-unselected">
+            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </span>
+          <span id="mobile-icon-menu-selected" class="hidden">
+            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile links -->
+    <div id="mobile-menu" class="hidden md:hidden px-2 pt-2 pb-3 sm:px-3">
+      
+      
+      
+      <a class=" block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+        href="/bases/" title="Bases">Bases</a>
+      
+      
+      
+      <a class=" block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+        href="/dishes/" title="Plats">Plats</a>
+      
+      
+      
+      <a class=" block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+        href="/appetizers/" title="Apéro !">Apéro !</a>
+      
+      
+      
+      <a class=" block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+        href="/desserts/" title="Desserts">Desserts</a>
+      
+      
+      
+    </div>
+  </nav>
+</header>
+
+  <div id="content">
+    
+
+<style>
+  .filter-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 1rem; }
+  details.filter-dropdown { position: relative; }
+  details.filter-dropdown summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
+    background: #fff;
+    border: 1px solid #6b7280;
+    font-weight: 500;
+    font-size: 0.875rem;
+    user-select: none;
+  }
+  details.filter-dropdown summary::-webkit-details-marker { display: none; }
+  details.filter-dropdown[open] summary { background: #f3f4f6; }
+  .filter-panel {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    z-index: 20;
+    background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1);
+    min-width: 12rem;
+    max-height: 16rem;
+    overflow-y: auto;
+    padding: 0.25rem 0;
+  }
+  .filter-panel label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  .filter-panel label:hover { background: #f9fafb; }
+</style>
+<script type="module">
+  import init, { load } from "https://vegan.astrid-klipfel.fr/search_engin.js";
+
+      init().then(async () => {
+        // Two-phase API: load once, search many times
+        const engine = await load({
+          search: {
+            "feed_url": "https://vegan.astrid-klipfel.fr/search.xml",
+            "match_fields": ["title", "author"],
+            "skim": {}
+          },
+          ui: {
+            "page": {
+              "template_id": "element",
+              "list_id": "list",
+              "inner": {
+                "template_id": "tag",
+                "list_id": "tags",
+                "edit": [
+                  {
+                    "id": "link_tag",
+                    "html_field": {"type": "InnerHTML"},
+                    "article_field": "taxonomies.tags"
+                  }
+                ]
+              },
+              "edit": [
+                {"id": "title", "html_field": {"type": "InnerHTML"}, "article_field": "title"},
+                {"id": "link_img", "html_field": {"type": "Attribute", "value": "aria-label"}, "article_field": "title"},
+                {"id": "img", "html_field": {"type": "Attribute", "value": "alt"}, "article_field": "title"},
+                {"id": "img", "html_field": {"type": "Attribute", "value": "src"}, "article_field": "img"},
+                {"id": "link_img", "html_field": {"type": "Attribute", "value": "href"}, "article_field": "link"},
+                {"id": "link_title", "html_field": {"type": "Attribute", "value": "href"}, "article_field": "link"},
+                {"id": "description", "html_field": {"type": "InnerHTML"}, "article_field": "description"},
+                {"id": "date", "html_field": {"type": "InnerHTML"}, "article_field": "date"},
+                {"id": "cooking-time", "html_field": {"type": "InnerHTML"}, "article_field": "cooking-time"}
+              ]
+            }
+          }
+        });
+
+        const params = new URLSearchParams(window.location.search);
+        const query = params.get("query");
+
+        const filters = engine.get_filters_url();
+        engine.set_filters_html(filters);
+
+        function runSearch() {
+          engine.reset();
+          const filters = engine.get_filters_html();
+          engine.set_filters_url(filters);
+          if (query !== null) {
+            engine.search_with_filters(query, filters);
+          }
+        }
+
+        runSearch();
+
+        document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+          cb.addEventListener("change", runSearch);
+        });
+      });
+</script>
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <h3 class="mt-2">Filtres</h3>
+  <div class="filter-bar">
+    
+    
+    
+    <details class="filter-dropdown">
+      <summary>
+        Catégories
+         ▾
+      </summary>
+      <div class="filter-panel">
+        
+        <label>
+          <input type="checkbox" name="tags" value="alsace">
+          alsace
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="apero">
+          apéro
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="base">
+          base
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="biscuit">
+          biscuit
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="dessert">
+          dessert
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="desserts">
+          desserts
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="epice">
+          épicé
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="ete">
+          été
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="galette">
+          galette
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="gateau">
+          gateau
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="hiver">
+          hiver
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="muffin">
+          muffin
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="noel">
+          noël
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="pancakes">
+          pancakes
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="pate">
+          pâte
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="pates">
+          pâtes
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="pizza">
+          pizza
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="plat">
+          plat
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="pst">
+          PST
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="ragout">
+          ragoût
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="sauce">
+          sauce
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="saucisse">
+          saucisse
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="tarte">
+          tarte
+        </label>
+        
+        <label>
+          <input type="checkbox" name="tags" value="tofu">
+          tofu
+        </label>
+        
+      </div>
+    </details>
+    
+    
+    
+    
+    <details class="filter-dropdown">
+      <summary>
+        Ingrédients
+         ▾
+      </summary>
+      <div class="filter-panel">
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="ail">
+          ail
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="aile">
+          aile
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="amande">
+          amande
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="avocat">
+          avocat
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="banane">
+          banane
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="bananes">
+          bananes
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="beurre-de-cacahuete">
+          beurre de cacahuète
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="bicarbonate-de-soude">
+          bicarbonate de soude
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="bouillon">
+          bouillon
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="cannelle">
+          cannelle
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="carotte">
+          carotte
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="champignon">
+          champignon
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="champignons">
+          champignons
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="chaplure">
+          chaplure
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="chocolat">
+          chocolat
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="chocolat-noir">
+          chocolat noir
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="citron">
+          citron
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="compote-de-pomme">
+          compote de pomme
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="concentre-de-tomate">
+          concentré de tomate
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="creme">
+          crème
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="creme-de-soja">
+          crème de soja
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="curry">
+          curry
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="eau">
+          eau
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="extrait-de-vanille">
+          extrait de vanille
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="farine">
+          farine
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="fecule-de-mais">
+          fécule de maïs
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="gingembre">
+          gingembre
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="haricot-vert">
+          haricot vert
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="herbe-de-provence">
+          herbe de provence
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="huile">
+          huile
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="huile-d-arrachide">
+          huile d&#x27;arrachide
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="huile-d-olive">
+          huile d&#x27;olive
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="huile-vegetale">
+          huile végétale
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="huille-de-tournesol">
+          huille de tournesol
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="lait-de-coco">
+          lait de coco
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="lait-de-soja">
+          lait de soja
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="lait-vegetal">
+          lait végétal
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="lardon">
+          lardon
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="laurier">
+          laurier
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="lentilles">
+          lentilles
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="levure-chimique">
+          levure chimique
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="levure-malte">
+          levure malté
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="levure-maltee">
+          levure maltée
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="madere">
+          madère
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="margarine">
+          margarine
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="miso">
+          miso
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="moutarde">
+          moutarde
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="muscade">
+          muscade
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="nouilles">
+          nouilles
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="oignon">
+          oignon
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="orange">
+          orange
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="origon">
+          origon
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pain-d-epice">
+          pain d&#x27;épice
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="patate">
+          patate
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="patate-douce">
+          patate douce
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pate">
+          pâte
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pate-brisee">
+          pâte brisée
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pate-feuilletee">
+          pâte feuilletée
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pates">
+          pâtes
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pepite-de-chocolat">
+          pépite de chocolat
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pesto">
+          pesto
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="piment-d-espelette">
+          piment d&#x27;espelette
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="piment-de-cayenne">
+          piment de cayenne
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="poireau">
+          poireau
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="poivron">
+          poivron
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pomme-de-terre">
+          pomme de terre
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="proteine-de-soja-texturee">
+          protéine de soja texturée
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="pst">
+          PST
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="puree-de-tomate">
+          purée de tomate
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="puree-de-tomates">
+          purée de tomates
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="riz">
+          riz
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="riz-a-risotto">
+          riz à risotto
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="sarrasin">
+          sarrasin
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="sauce-soja">
+          sauce soja
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="saucisse">
+          saucisse
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="sirop-d-erable">
+          sirop d&#x27;érable
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="sucre">
+          sucre
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="sucre-glace">
+          sucre glace
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="sucre-roux">
+          sucre roux
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="tandoori">
+          tandoori
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="tofu">
+          tofu
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="tofu-epice">
+          tofu épicé
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="tomate">
+          tomate
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="vanille">
+          vanille
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="yaourt-soja">
+          yaourt soja
+        </label>
+        
+        <label>
+          <input type="checkbox" name="ingredients" value="zeste-d-orange">
+          zeste d&#x27;orange
+        </label>
+        
+      </div>
+    </details>
+    
+    
+    
+    
+    <details class="filter-dropdown">
+      <summary>
+        Saisons
+         ▾
+      </summary>
+      <div class="filter-panel">
+        
+        <label>
+          <input type="checkbox" name="seasons" value="automne">
+          automne
+        </label>
+        
+        <label>
+          <input type="checkbox" name="seasons" value="ete">
+          été
+        </label>
+        
+        <label>
+          <input type="checkbox" name="seasons" value="hiver">
+          hiver
+        </label>
+        
+      </div>
+    </details>
+    
+    
+    
+    
+    <details class="filter-dropdown">
+      <summary>
+        Ustensiles
+         ▾
+      </summary>
+      <div class="filter-panel">
+        
+        <label>
+          <input type="checkbox" name="tools" value="four">
+          four
+        </label>
+        
+      </div>
+    </details>
+    
+    
+  </div>
+</div>
+
+<div class="max-w-7xl mx-auto pt-4 pb-1 px-4 sm:px-6 lg:px-8">
+  <article class="prose">
+    <h1>Résultats:</h1>
+  </article>
+</div>
+
+<div class="hidden">
+  
+  
+
+
+
+<div class="flex flex-col rounded-md shadow-md overflow-hidden"  id="element">
+  <div class="flex-shrink-0">
+    <a id="link_img" href="https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;search&#x2F;" aria-label="Sans titre">
+      <img class="h-48 w-full object-cover" src=""  id="img" alt="Sans titre" />
+    </a>
+  </div>
+  <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+    <div class="flex-1">
+      
+      <a href="
+" class="block"  id="link_title">
+        <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900"  id="title">
+          
+
+        </h3>
+      </a>
+      <p id="description" class="mt-3 text-base leading-6 text-gray-500">
+        
+      </p>
+    </div>
+    <div class="mt-6 flex items-center">
+      <div>
+        <div class="flex text-sm leading-5 text-gray-500">
+          <time id="date" datetime="">
+            
+          </time>
+          
+          <span class="mx-1">
+            &middot;
+          </span>
+          <span id="cooking-time">
+          </span>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="container max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="list">
+  </div>
+</div>
+
+
+  </div>
+  <footer>
+  <!-- Social Media Icons -->
+  
+  <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center">
+    
+    
+  </div>
+</footer>
+
+</body>
+</html>

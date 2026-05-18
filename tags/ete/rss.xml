@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title> - été</title>
+      <link>https://vegan.astrid-klipfel.fr</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>fr</language>
+      <atom:link href="https://vegan.astrid-klipfel.fr/tags/ete/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Tarte à la tomate</title>
+          <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+          <author>Astrid</author>
+          <link>https://vegan.astrid-klipfel.fr/dishes/tomato-pie/</link>
+          <guid>https://vegan.astrid-klipfel.fr/dishes/tomato-pie/</guid>
+          <description xml:base="https://vegan.astrid-klipfel.fr/dishes/tomato-pie/">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;bases&#x2F;pastry&quot;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pâte brisée&lt;font size=&quot;4&quot;&gt;📒&lt;&#x2F;font&gt; &lt;&#x2F;a&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Chaplures (optionnel)&lt;&#x2F;li&gt;
+&lt;li&gt;5 tomates&lt;&#x2F;li&gt;
+&lt;li&gt;Moutarde&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Placez la pâte dans un plat à tarte, piquez la pâte avec une fourchette. Étalez la moutarde et saupoudrez de chapelure pour éviter que la pâte ne soit trop humide. Coupez les tomates en rondelles et disposez les dans le plat. Enfournez 45 minutes à 210 °C.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
