@@ -7,6 +7,7 @@ authors = ["Astrid"]
   tags = ["plat", "épicé", "pâtes"]
   seasons = ["été"]
 ingredients = ["pâte", "pesto", "tomate", "tofu"]
+tools = ["poêle"]
 [extra]
 image = "pasta_pesto_spicy.jpg"
 cooking_time = "20 minutes"

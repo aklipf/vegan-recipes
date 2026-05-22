@@ -5,8 +5,9 @@ description = "Recette simple de quiche aux poireaux"
 authors = ["Astrid"]
 [taxonomies]
   tags = ["plat", "tarte"]
-  seasons = ["hiver"]
-ingredients = ["pâte brisée", "poireau", "oignon", "crème de soja", "fécule de maïs", "muscade", "levure malté", "bouillon"]
+  seasons = ["hiver", "printemps"]
+ingredients = ["pâte brisée", "poireau", "oignon", "crème de soja", "fécule de maïs", "muscade", "levure maltée", "bouillon"]
+tools = ["four", "poêle"]
 [extra]
 image = "quiche.jpg"
 cooking_time = "1 heure"

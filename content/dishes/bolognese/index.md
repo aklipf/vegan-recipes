@@ -7,6 +7,7 @@ authors = ["Astrid"]
   tags = ["plat", "pâtes", "PST"]
   seasons = ["hiver"]
 ingredients = ["pâte", "tomate", "PST"]
+tools = ["poêle"]
 [extra]
 image = "bolognese.jpg"
 cooking_time = "2 heures"

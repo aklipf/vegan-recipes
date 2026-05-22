@@ -5,7 +5,8 @@ description = "Mafé au PST et patate douce."
 authors = ["Astrid"]
 [taxonomies]
   tags = ["plat", "épicé", "PST"]
-ingredients = ["PST", "patate douce", "beurre de cacahuète", "carotte", "purée de tomate"]
+ingredients = ["PST", "patate douce", "beurre de cacahuète", "carotte", "purée de tomates"]
+tools = ["casserole"]
 [extra]
 image = "mafe.jpg"
 cooking_time = "1 heure"

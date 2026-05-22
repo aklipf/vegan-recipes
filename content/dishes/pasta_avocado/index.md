@@ -7,6 +7,7 @@ authors = ["Astrid"]
   tags = ["plat", "épicé", "pâtes"]
   seasons = ["été"]
 ingredients = ["pâte", "avocat", "piment d'espelette"]
+tools = ["mixeur"]
 [extra]
 image = "pate_avocat.jpg"
 cooking_time = "15 minutes"

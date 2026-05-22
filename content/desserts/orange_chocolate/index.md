@@ -4,8 +4,9 @@ title = "Gâteau orange chocolat"
 description = "Recette de gâteau à l'orange et au chocolat (et un peu de gingembre selon les goûts)."
 authors = ["Astrid"]
 [taxonomies]
-tags = ["desserts", "gâteau"]
+tags = ["dessert", "gâteau"]
 ingredients = ["lait de soja", "orange", "yaourt soja", "zeste d'orange", "sucre", "farine", "levure chimique", "huile végétale", "pépite de chocolat", "gingembre"]
+tools = ["four"]
 [extra]
 image = "cake.jpg"
 cooking_time = "1 heure 30 minutes"

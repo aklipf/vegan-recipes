@@ -6,6 +6,7 @@ authors = ["Astrid"]
 [taxonomies]
 tags = ["base", "tofu", "épicé"]
 ingredients = ["tofu", "huile", "sauce soja", "piment de cayenne", "herbe de provence"]
+tools = ["poêle"]
 [extra]
 image = "tofu.jpg"
 cooking_time = "2 heures"

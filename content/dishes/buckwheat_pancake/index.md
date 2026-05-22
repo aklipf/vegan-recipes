@@ -7,6 +7,7 @@ authors = ["Astrid"]
   tags = ["plat", "galette"]
   seasons = ["automne"]
 ingredients = ["sarrasin", "champignons", "oignon", "crème de soja", "levure maltée"]
+tools = ["poêle"]
 [extra]
 image = "buckwheat_mushroom.jpg"
 cooking_time = "45 minutes"

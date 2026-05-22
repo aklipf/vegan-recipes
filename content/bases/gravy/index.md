@@ -5,7 +5,8 @@ description = "Recette de sauce Gravy vegan."
 authors = ["Mathilde"]
 [taxonomies]
 tags = ["base", "sauce"]
-ingredients = ["margarine", "farine", "bouillon", "miso", "origon", "sauce soja", "sirop d'érable", "levure maltée"]
+ingredients = ["margarine", "farine", "bouillon", "miso", "origan", "sauce soja", "sirop d'érable", "levure maltée"]
+tools = ["casserole"]
 [extra]
 image = "gravy.jpg"
 cooking_time = "25 minutes"

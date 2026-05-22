@@ -4,8 +4,9 @@ title = "Brownie"
 description = "Recette de brownie"
 authors = ["Mathilde"]
 [taxonomies]
-tags = ["dessert", "gateau"]
+tags = ["dessert", "gâteau"]
 ingredients = ["chocolat", "sucre", "farine"]
+tools = ["four"]
 [extra]
 image = "brownie.jpg"
 cooking_time = "40 minutes"

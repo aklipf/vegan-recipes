@@ -6,7 +6,8 @@ authors = ["Astrid"]
 [taxonomies]
   tags = ["plat"]
   seasons = ["automne"]
-ingredients = ["champignon", "riz à risotto", "bouillon", "oignon", "aile", "crème de soja", "levure maltée"]
+ingredients = ["champignons", "riz à risotto", "bouillon", "oignon", "ail", "crème de soja", "levure maltée"]
+tools = ["poêle"]
 [extra]
 image = "risotto.jpg"
 cooking_time = "45 minutes"

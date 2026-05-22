@@ -5,7 +5,8 @@ description = "Banana bread moelleux pour utiliser vos bananes trop mûres."
 authors = ["vegan pratique"]
 [taxonomies]
 tags = ["dessert", "gâteau"]
-ingredients = ["sucre", "farine", "banane", "amande", "chocolat", "vanille"]
+ingredients = ["sucre", "farine", "bananes", "amande", "chocolat", "vanille"]
+tools = ["four"]
 [extra]
 image = "banana_bread.jpg"
 cooking_time = "1 heure et demi"

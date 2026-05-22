@@ -4,8 +4,9 @@ title = "Muffin chocolat banane"
 description = "Recette de muffin chocolat banane."
 authors = ["Eurûs"]
 [taxonomies]
-tags = ["desserts", "muffin"]
-ingredients = ["farine", "bicarbonate de soude", "sucre roux", "chocolat noir", "bananes", "huille de tournesol", "extrait de vanille"]
+tags = ["dessert", "muffin"]
+ingredients = ["farine", "bicarbonate de soude", "sucre roux", "chocolat noir", "bananes", "huile de tournesol", "extrait de vanille"]
+tools = ["four"]
 [extra]
 image = "muffin.jpg"
 cooking_time = "45 minutes"

@@ -7,6 +7,7 @@ authors = ["Sarah"]
   tags = ["plat", "épicé", "pâtes"]
   seasons = ["été"]
 ingredients = ["pâtes", "nouilles", "riz", "oignon", "poivron", "lait de coco", "huile d'olive", "huile d'arrachide", "curry", "tandoori", "bouillon", "citron", "ail"]
+tools = ["poêle"]
 [extra]
 image = "curry.jpg"
 cooking_time = "25 minutes"

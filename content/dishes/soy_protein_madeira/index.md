@@ -5,7 +5,8 @@ description = "Délicieuse recette de PST avec une sauce au madère."
 authors = ["Astrid"]
 [taxonomies]
 tags = ["plat", "PST"]
-ingredients = ["protéine de soja texturée", "PST", "oignon", "crème de soja", "concentré de tomate", "madère", "sauce soja", "lentilles", "tomate", "carotte"]
+ingredients = ["PST", "oignon", "crème de soja", "concentré de tomate", "madère", "sauce soja", "lentilles", "tomate", "carotte"]
+tools = ["poêle"]
 [extra]
 image = "soy_protein.jpg"
 cooking_time = "45 minutes"

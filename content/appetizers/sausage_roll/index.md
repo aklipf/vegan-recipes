@@ -6,6 +6,7 @@ authors = ["Astrid"]
 [taxonomies]
 tags = ["apéro", "saucisse"]
 ingredients = ["pâte feuilletée", "purée de tomates", "saucisse", "moutarde"]
+tools = ["four"]
 [extra]
 image = "sausage_roll.jpg"
 cooking_time = "30 minutes"

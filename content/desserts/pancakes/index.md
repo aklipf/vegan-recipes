@@ -4,8 +4,9 @@ title = "Pancakes"
 description = "Recette de pancakes moelleux."
 authors = ["Astrid"]
 [taxonomies]
-tags = ["desserts", "pancakes"]
+tags = ["dessert", "pancakes"]
 ingredients = ["farine", "lait végétal", "compote de pomme", "sucre", "levure chimique", "vanille"]
+tools = ["poêle"]
 [extra]
 image = "pancake.jpg"
 cooking_time = "1 heure"

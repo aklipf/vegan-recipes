@@ -6,6 +6,7 @@ authors = ["Astrid"]
 [taxonomies]
 tags = ["plat", "tarte", "alsace"]
 ingredients = ["lardon", "oignon", "crème", "farine"]
+tools = ["four"]
 [extra]
 image = "flammekueche.jpg"
 cooking_time = "45 minutes"

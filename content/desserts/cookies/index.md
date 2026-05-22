@@ -4,8 +4,9 @@ title = "Cookies"
 description = "Recette de cookies (9 - 10)"
 authors = ["Mathilde"]
 [taxonomies]
-tags = ["dessert", "biscuit", "gateau"]
+tags = ["dessert", "biscuit", "gâteau"]
 ingredients = ["chocolat", "sucre", "farine"]
+tools = ["four"]
 [extra]
 image = "cookies.jpg"
 cooking_time = "1 heure"

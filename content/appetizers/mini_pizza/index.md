@@ -6,6 +6,7 @@ authors = ["Astrid"]
 [taxonomies]
 tags = ["apéro", "pizza"]
 ingredients = ["pâte feuilletée", "purée de tomates", "tofu épicé"]
+tools = ["four"]
 [extra]
 image = "mini_pizza.jpg"
 cooking_time = "30 minutes"

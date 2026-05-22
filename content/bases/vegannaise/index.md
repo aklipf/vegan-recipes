@@ -6,6 +6,7 @@ authors = ["Astrid"]
 [taxonomies]
 tags = ["base", "sauce", "épicé"]
 ingredients = ["moutarde", "citron", "huile"]
+tools = ["mixeur"]
 [extra]
 image = "vegannaise.jpg"
 cooking_time = "10 minutres"

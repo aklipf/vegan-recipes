@@ -5,7 +5,9 @@ description = "Biscuits sablés à la cannelle et au pain d'épice."
 authors = ["Laurianne (perleensucre.com)"]
 [taxonomies]
 tags = ["dessert", "gâteau", "noël"]
+seasons = ["hiver"]
 ingredients = ["sucre glace", "farine", "cannelle", "pain d'épice", "margarine"]
+tools = ["four", "emporte-pièce", "poche à douille"]
 [extra]
 image = "sables_noel.png"
 cooking_time = "40 minutes"

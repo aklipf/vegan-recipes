@@ -4,8 +4,10 @@ title = "Le plat de ma grand mère"
 description = "La version vegan d'une recette de famille qui perdure depuis 4 générations"
 authors = ["Sophie"]
 [taxonomies]
-tags = ["plat", "ragoût", "hiver"]
-ingredients = ["pomme de terre", "patate", "carotte", "tomate", "haricot vert", "poireau", "laurier", "bouillon", "margarine", "farine"]
+tags = ["plat", "ragoût"]
+seasons = ["hiver"]
+ingredients = ["pomme de terre", "carotte", "tomate", "haricot vert", "poireau", "laurier", "bouillon", "margarine", "farine"]
+tools = ["casserole"]
 [extra]
 image = "stew.jpg"
 cooking_time = "2 heures"
