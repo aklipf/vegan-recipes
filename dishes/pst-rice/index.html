@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+  
+  
+  
+  
+  
+
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name=generator content="Zola">
+
+  
+    <meta name="description" content="Riz avec des petits morceaux de PST et une sauce à la tomate">
+  
+
+  <title>Recettes vegan</title>
+  <link rel="stylesheet" href="/css/generated.css">
+  
+    <link rel="icon" href="&#x2F;leaf-solid.svg" />
+  
+
+  
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed for https://vegan.astrid-klipfel.fr" href="/atom.xml" />
+  
+
+  <script defer src="/js/zolarwind/logic.js" integrity="sha384-GYtsrgYVRYoxdEL+C+79KROm+MCl1ArSzQnqVnPTV78UNz5a1vFxAEiKbobXhQlw"></script>
+  
+  
+</head>
+<body>
+  
+
+
+
+
+<header class="sticky top-0 w-full z-10">
+  <nav class="bg-gray-600">
+    <!-- Navbar container -->
+    <div class="flex items-center justify-between h-16 max-w-7xl mx-auto px-4 lg:px-8">
+
+      <!-- Homepage logo -->
+      <a href="/" aria-label="Retour à la page principale">
+        <div class="h-8 w-8 text-gray-200 hover:text-white fill-current">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+            <path
+              d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15M9 21C9.55228 21 10 20.5523 10 20V16C10 15.4477 10.4477 15 11 15H13C13.5523 15 14 15.4477 14 16V20C14 20.5523 14.4477 21 15 21M9 21H15"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+      </a>
+
+      <!-- Desktop links -->
+      <div class="hidden md:block">
+        
+        
+        
+        <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+          href="/bases/" title="Bases">Bases</a>
+        
+        
+        
+        <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+          href="/dishes/" title="Plats">Plats</a>
+        
+        
+        
+        <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+          href="/appetizers/" title="Apéro !">Apéro !</a>
+        
+        
+        
+        <a class="px-3 py-2 ml-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+          href="/desserts/" title="Desserts">Desserts</a>
+        
+        
+        
+      </div>
+
+      <!-- Search field -->
+      <form action="/search" class="flex items-center">
+        <input class="px-3 py-2 rounded-md font-medium text-gray-500 bg-gray-900 focus:text-white" type="text" name="query"
+          size="16" placeholder="Rechercher">
+        <button type="submit">
+          <div class="h-6 w-6 ml-2 text-gray-200 hover:text-white fill-current">
+            <svg stroke="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+          </div>
+        </button>
+      </form>
+
+      <!-- Mobile menu icon -->
+      <div class="flex md:hidden">
+        <button id="toggleMobileMenu"
+          class="icon inline-flex items-center justify-center p-2 rounded-md text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+          aria-label="Menu">
+          <span id="mobile-icon-menu-unselected">
+            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </span>
+          <span id="mobile-icon-menu-selected" class="hidden">
+            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile links -->
+    <div id="mobile-menu" class="hidden md:hidden px-2 pt-2 pb-3 sm:px-3">
+      
+      
+      
+      <a class=" block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+        href="/bases/" title="Bases">Bases</a>
+      
+      
+      
+      <a class=" block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+        href="/dishes/" title="Plats">Plats</a>
+      
+      
+      
+      <a class=" block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+        href="/appetizers/" title="Apéro !">Apéro !</a>
+      
+      
+      
+      <a class=" block px-3 py-2 rounded-md font-medium text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-600"
+        href="/desserts/" title="Desserts">Desserts</a>
+      
+      
+      
+    </div>
+  </nav>
+</header>
+
+  <div id="content">
+    
+
+  
+  
+    
+  
+  
+
+  <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+    <article class="prose">
+      <div class="h-48 rounded-md shadow-md">
+        <img class="h-48 w-full object-cover" src="https:&#x2F;&#x2F;vegan.astrid-klipfel.fr&#x2F;processed_images&#x2F;rice.b33c6a871a9a3606.jpg" alt="Riz au gras">
+      </div>
+      <h1>Riz au gras</h1>
+      <div>
+        <p>
+          <span class="mr-2 text-sm">
+            <time datetime="2026-06-24">24 juin 2026</time>
+             &middot; 45 minutes de préparation
+          </span>
+          <span class="text-sm leading-5 font-medium text-indigo-600">
+
+  
+    
+      <span class="mr-2 badge badge-green"><a href="https://vegan.astrid-klipfel.fr/tags/plat/">plat</a></span>
+    
+      <span class="mr-2 badge badge-green"><a href="https://vegan.astrid-klipfel.fr/tags/pst/">PST</a></span>
+    
+  
+
+</span>
+
+        </p>
+      </div>
+      
+
+      <div>
+        <h2 id="ingredients">Ingrédients</h2>
+<ul>
+<li>40 cl de coulis de tomates</li>
+<li>100 g de protéines de soja texturées en petits morceaux (PST)</li>
+<li>1 oignon</li>
+<li>1 tomate (optionnel)</li>
+<li>150 g de riz</li>
+<li>1 bouillon de légumes</li>
+<li>un peu de piment de Cayenne (optionnel)</li>
+<li>5 cl de sauce soja</li>
+<li>huile d'arachide</li>
+</ul>
+<h2 id="preparation">Préparation</h2>
+<ul>
+<li>Prenez les protéines de soja et faites-les tremper dans l'eau.</li>
+<li>Coupez l'oignon et faites-le revenir dans une grande poêle avec un peu d'huile.</li>
+<li>Mélanger les PST avec une bonne dose d'huile et un peu de sauce soja avant de les faire revenir avec l'oignon.</li>
+<li>Coupez les tomates et réservez-les.</li>
+<li>Ajoutez le riz cru dans la poêle et faites-le revenir avec les PST jusqu'à ce qu'il soit gorgé d'huile.</li>
+<li>Ajoutez de l'eau bouillante petit à petit, le bouillon de légumes et les épices. Faites cuire une dizaine de minutes.</li>
+<li>Ajoutez les morceaux de tomates et faites cuire encore 5 minutes.</li>
+<li>Ajoutez le coulis de tomates et continuez la cuisson jusqu'à ce que le riz soit bien cuit et servez.</li>
+</ul>
+
+      </div>
+    </article>
+  </div>
+
+  <script type="application/ld+json">
+{
+   "@context": "https://schema.org"
+  ,"@type": "BlogPosting"
+  ,"mainEntityOfPage": {
+     "@type": "WebPage"
+    ,"@id": "https://vegan.astrid-klipfel.fr/dishes/pst-rice/"
+  }
+  ,"headline": "Riz au gras"
+  ,"datePublished": "2026-06-24"
+  ,"dateModified": "2026-06-24"
+  
+  ,"author": [
+    
+      {
+         "@type": "Person"
+        ,"name": "Astrid"
+      }
+      
+    
+  ]
+  ,"publisher": [
+    
+      {
+         "@type": "Person"
+        ,"name": "Astrid"
+      }
+      
+    
+  ]
+  
+  ,"description": "Riz avec des petits morceaux de PST et une sauce à la tomate"
+  ,"articleBody": "Ingrédients40 cl de coulis de tomates100 g de protéines de soja texturées en petits morceaux (PST)1 oignon1 tomate (optionnel)150 g de riz1 bouillon de légumesun peu de piment de Cayenne (optionnel)5 cl de sauce sojahuile d&#x27;arachidePréparationPrenez les protéines de soja et faites-les tremper dans l&#x27;eau.Coupez l&#x27;oignon et faites-le revenir dans une grande poêle avec un peu d&#x27;huile.Mélanger les PST avec une bonne dose d&#x27;huile et un peu de sauce soja avant de les faire revenir avec l&#x27;oignon.Coupez les tomates et réservez-les.Ajoutez le riz cru dans la poêle et faites-le revenir avec les PST jusqu&#x27;à ce qu&#x27;il soit gorgé d&#x27;huile.Ajoutez de l&#x27;eau bouillante petit à petit, le bouillon de légumes et les épices. Faites cuire une dizaine de minutes.Ajoutez les morceaux de tomates et faites cuire encore 5 minutes.Ajoutez le coulis de tomates et continuez la cuisson jusqu&#x27;à ce que le riz soit bien cuit et servez."
+  
+    ,"image": "https://vegan.astrid-klipfel.fr/dishes/pst-rice/rice.jpg"
+  
+}
+</script>
+
+
+
+  </div>
+  <footer>
+  <!-- Social Media Icons -->
+  
+  <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center">
+    
+    
+  </div>
+</footer>
+
+</body>
+</html>

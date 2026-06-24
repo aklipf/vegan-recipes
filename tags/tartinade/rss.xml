@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title> - tartinade</title>
+      <link>https://vegan.astrid-klipfel.fr</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>fr</language>
+      <atom:link href="https://vegan.astrid-klipfel.fr/tags/tartinade/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Caviar d&#x27;aubergine</title>
+          <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+          <author>Astrid</author>
+          <link>https://vegan.astrid-klipfel.fr/appetizers/eggplant-caviar/</link>
+          <guid>https://vegan.astrid-klipfel.fr/appetizers/eggplant-caviar/</guid>
+          <description xml:base="https://vegan.astrid-klipfel.fr/appetizers/eggplant-caviar/">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Une aubergine&lt;&#x2F;li&gt;
+&lt;li&gt;10 cl de sauce tomate&lt;&#x2F;li&gt;
+&lt;li&gt;Huile d&#x27;olive&lt;&#x2F;li&gt;
+&lt;li&gt;Ail en poudre&lt;&#x2F;li&gt;
+&lt;li&gt;Epices selon les goûts&lt;&#x2F;li&gt;
+&lt;li&gt;Sel et poivre&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Préchauffez un four à 180°C. Découpez l&#x27;aubergine en deux dans la longueur. Faites un quadrillage dans la chair de l&#x27;aubergine et ajoutez l&#x27;huile d&#x27;olive, la sauce tomate et toutes les épices. Faites cuire pendant 1 heure au four. Après cuisson, récoltez la chair de l&#x27;aubergine en laissant la peau. Vous pouvez manger cette sauce chaude ou froide sur une tranche de pain.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

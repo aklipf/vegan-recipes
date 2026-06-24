@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title> - muffin</title>
+      <link>https://vegan.astrid-klipfel.fr</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>fr</language>
+      <atom:link href="https://vegan.astrid-klipfel.fr/tags/muffin/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Muffin chocolat banane</title>
+          <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+          <author>Eurûs</author>
+          <link>https://vegan.astrid-klipfel.fr/desserts/muffins/</link>
+          <guid>https://vegan.astrid-klipfel.fr/desserts/muffins/</guid>
+          <description xml:base="https://vegan.astrid-klipfel.fr/desserts/muffins/">&lt;h2 id=&quot;ingredients&quot;&gt;Ingrédients&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;250 g de farine T55 (possibilité d’utiliser de la farine plus standard à dessert)&lt;&#x2F;li&gt;
+&lt;li&gt;1 1&#x2F;2 cuillères à café de bicarbonate de soude&lt;&#x2F;li&gt;
+&lt;li&gt;200 g de sucre roux&lt;&#x2F;li&gt;
+&lt;li&gt;100 g de chocolat noir&lt;&#x2F;li&gt;
+&lt;li&gt;4 bananes bien mures&lt;&#x2F;li&gt;
+&lt;li&gt;80 ml d’huile de tournesol&lt;&#x2F;li&gt;
+&lt;li&gt;50 ml d’eau&lt;&#x2F;li&gt;
+&lt;li&gt;1 cuillère à café d’extrait de vanille&lt;&#x2F;li&gt;
+&lt;li&gt;une pincée de sel&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;preparation&quot;&gt;Préparation&lt;&#x2F;h2&gt;
+&lt;p&gt;Préchauffer le four à 180°C.
+Écraser les bananes afin d’obtenir une purée.
+Mélanger la farine, le bicarbonate de soude et le sel dans un bol.
+Dans un autre bol, mélanger l’huile et le sucre, et ajouter la purée de bananes puis la vanille et l’eau.
+Concasser le chocolat en petits morceaux.
+Ajouter le mélange de farine et le chocolat à la préparation et mélanger.
+Remplir des moules à muffins à mi-hauteur et laisser cuire au four pendant 20 à 25 minutes (pour vérifier la cuisson des muffins, planter la lame d’un couteau dans le muffin: si la lame ressort sèche, il est cuit, sinon, la pâte laissera ses marques).
+Sortir les muffins et les laisser refroidir sur une grille afin d’éviter la formation d’humidité sous les muffins.
+C’est prêt !&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
